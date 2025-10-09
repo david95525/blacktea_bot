@@ -46,6 +46,11 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/attachments/1425749836321390632/1425761139236798504/4587877.png?ex=68e8c308&is=68e77188&hm=c713ec279b1d6effa48723ce476b05c698421b4efbc3e6280123134f98b0d18f&",
   },
+  {
+    trigger: "!口尼西",
+    response:
+      "https://cdn.discordapp.com/attachments/1100943106880319570/1285489857048870975/remix-7e799287-7dc3-4001-91f7-9e6f039d81ac.png?ex=68e8a9b9&is=68e75839&hm=2c68c479f47f319a998b8b05a147cd8c7eade5e95a8a9759e06ada3dbfdcef01&",
+  },
   // === gif回覆 ===
   { trigger: "!sex", response: "https://imgur.com/QVt1K7Z" },
   {
@@ -73,6 +78,11 @@ module.exports = [
     response:
       "https://tenor.com/view/milk-tea-pour-milk-tea-pot-teacup-gif-12488426",
   },
+  {
+    trigger: "!生快",
+    response:
+      "https://tenor.com/view/happy-birthday-hbd-long-gundam-suletta-gif-27082431",
+  },
   //多回覆
   {
     trigger: "!拔刀",
@@ -80,6 +90,11 @@ module.exports = [
       "https://tenor.com/view/cat-cat-meme-cat-angry-gif-1976276352290102621",
       "https://tenor.com/view/sheathing-the-sword-puff-meow-chef-that-little-puff-slicing-an-apple-gif-14446880999248387316",
     ],
+  },
+  {
+    trigger: "!RTA",
+    response:
+      "https://cdn.discordapp.com/attachments/1270969882502234172/1270971335191040011/1723093556227.gif?ex=68e8944b&is=68e742cb&hm=3bf7a6ab78b6e37775908afc6e2110a192456a8984ff901805d1fc712cc66a11&",
   },
   {
     trigger: "!伊泉",
