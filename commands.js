@@ -98,6 +98,7 @@ module.exports = [
     response:
       "https://tenor.com/view/happy-birthday-hbd-long-gundam-suletta-gif-27082431",
   },
+  {trigger: "!狗", response: "https://tenor.com/view/animated-smh-dog-gif-25193445"},
   //多回覆
   {
     trigger: "!拔刀",
