@@ -11,6 +11,11 @@ module.exports = [
   { trigger: "!爽尻", response: "(′・ω・‵) 這個尻尻 我們不要了" },
   // === 圖片回覆 ===
   {
+    trigger: "!逮捕",
+    response:
+      "https://cdn.discordapp.com/attachments/1277494264309223508/1426804580879958128/image.png?ex=68ec8ed0&is=68eb3d50&hm=4200995c1a486bee89c6f7f52fc75280fda074a6716567da2df049509cbe38e1&",
+  },
+  {
     trigger: "!択捉愛",
     response:
       "https://cdn.discordapp.com/attachments/1285105364936818718/1425743402540204132/image.png",
@@ -50,6 +55,16 @@ module.exports = [
     trigger: "!口尼西",
     response:
       "https://cdn.discordapp.com/attachments/1100943106880319570/1285489857048870975/remix-7e799287-7dc3-4001-91f7-9e6f039d81ac.png?ex=68e8a9b9&is=68e75839&hm=2c68c479f47f319a998b8b05a147cd8c7eade5e95a8a9759e06ada3dbfdcef01&",
+  },
+  {
+    trigger: "!moga",
+    response:
+      "https://cdn.discordapp.com/attachments/1100943106880319570/1339615817398091927/87878787877.png?ex=68ec6eb3&is=68eb1d33&hm=109a4e690c2e2deef0481adc7a92c911e8c1accf956adf7c16edc2bce52c0a47&",
+  },
+  {
+    trigger: "!舔",
+    response:
+      "https://i.meee.com.tw/xytGmPj.png",
   },
   // === gif回覆 ===
   { trigger: "!sex", response: "https://imgur.com/QVt1K7Z" },
@@ -123,8 +138,11 @@ module.exports = [
   {
     trigger: "!海鮮",
     response: [
+      //禁止禁止
       "https://media.discordapp.net/attachments/1425749836321390632/1425761139962286140/1689237310961.png?ex=68e8c309&is=68e77189&hm=51df9e9ee99ff536d47ce93079b133445bdd715f6ec3c0098db4287ec8a9085f&=&format=webp&quality=lossless",
+      //不知道
       "https://cdn.discordapp.com/attachments/1425749836321390632/1425761140612272138/3G.png?ex=68e8c309&is=68e77189&hm=1ced779d6b5fc1f927dbbc3e54f1c8b24861fbbc8141c266b577d850ac0aff1c&",
+      //抽不到
       "https://cdn.discordapp.com/attachments/1425749836321390632/1425761141237481524/1154878787.png?ex=68e8c309&is=68e77189&hm=8404c0a715a1b2e651734d4264f5d31d424948231b621b8c5a9c6c28ae691201&",
       "https://cdn.discordapp.com/attachments/1425749836321390632/1425761140314734675/59598888.jpg?ex=68e8c309&is=68e77189&hm=9379e5306c4a48f25dbb08ec812725383c4d2fc8920c91c2bafba4e84ac477d7&",
     ],

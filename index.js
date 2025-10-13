@@ -41,15 +41,21 @@ client.on("messageCreate", async (message) => {
 
   // === !list 指令 ===
   if (content === "!list") {
+    const listText = commands
+      .map((c) => c.trigger)
+      .reduce((acc, cur, i) => {
+        const sep = (i + 1) % 10 === 0 ? "\n" : " ";
+        return acc + cur + sep;
+      }, "");
     const embed = new EmbedBuilder()
-      .setTitle("📜 可用指令")
-      .setDescription(commands.map((c) => c.trigger).join("\n"))
+      .setTitle("可用指令")
+      .setDescription(listText)
       .setColor(0x00ae86);
     message.channel.send({ embeds: [embed] });
     return;
   }
 
-  // === 其他指令 ===
+  // === 其他指令 ===s
   const cmd = commands.find((c) => c.trigger === content);
   if (!cmd) return;
 
