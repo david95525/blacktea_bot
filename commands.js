@@ -2,13 +2,15 @@ module.exports = [
   // === 文字回覆 ===
   { trigger: "!去留", response: "(′・ω・‵) 該考慮去留了" },
   { trigger: "!下班", response: "(′・ω・‵) 走ㄌ走ㄌ" },
-  { trigger: "!托馬", response: "(′・ω・‵)" },
+  { trigger: "!震怒", response: "(′・ω・‵) 嘎喔" },
+  { trigger: "!爽尻", response: "(′・ω・‵) 這個尻尻 我們不要了" },
+  { trigger: "!欺騙", response: "(′・ω・‵) 大家都被欺騙感情丁欺騙感情" },
+  { trigger: "!破防", response: "(′ Q ω Q ‵)" },
   { trigger: "!尻尻", response: "尻尻：雅狗欠我狗爸摳" },
   { trigger: "!丁", response: "欺騙感情丁：這個艦娘強不強？不強我拆了" },
-  { trigger: "!震怒", response: "(′・ω・‵) 嘎喔" },
-  { trigger: "!破防", response: "(′ Q ω Q ‵)" },
   { trigger: "!中", response: "噫！好了！我中了！" },
-  { trigger: "!爽尻", response: "(′・ω・‵) 這個尻尻 我們不要了" },
+  { trigger: "!仲裁", response: "紅茶：你們都有罪" },
+
   // === 圖片回覆 ===
   {
     trigger: "!逮捕",
@@ -63,20 +65,14 @@ module.exports = [
   },
   {
     trigger: "!舔",
-    response:
-      "https://i.meee.com.tw/xytGmPj.png",
+    response: "https://i.meee.com.tw/xytGmPj.png",
   },
-  // === gif回覆 ===
+  // === GIF ===
   { trigger: "!sex", response: "https://imgur.com/QVt1K7Z" },
   {
     trigger: "!噴",
     response:
       "https://cdn.discordapp.com/emojis/674385925827985416.webp?size=96&animated=true",
-  },
-  {
-    trigger: "!亞狗",
-    response:
-      "https://cdn.discordapp.com/attachments/826121054086627388/1422846991880163408/7YPB9PKQN0WMYR2AD.gif?ex=68e8b506&is=68e76386&hm=a394445192e25f8eb0fcb00b70ece6a658e07bb9e1ff3ba2a797239da56e4624&",
   },
   {
     trigger: "!習慣",
@@ -98,8 +94,59 @@ module.exports = [
     response:
       "https://tenor.com/view/happy-birthday-hbd-long-gundam-suletta-gif-27082431",
   },
-  {trigger: "!狗", response: "https://tenor.com/view/animated-smh-dog-gif-25193445"},
+  {
+    trigger: "!狗",
+    response:
+      "https://cdn.discordapp.com/attachments/1367676124066353162/1395395220748763188/IMG_6628.gif?ex=68ee4e91&is=68ecfd11&hm=abfd2df86fe5e53cb0a59915c7852f5cabb360b84e1a3e60809b68e28175f43e&",
+  },
+  {
+    trigger: "!托馬",
+    response:
+      "https://media.discordapp.net/attachments/483550384133111808/840855410683936788/gz1je-5sf55.gif?ex=68eea6e0&is=68ed5560&hm=99043b841c3ab0e6aeeb253310b1af4cdf818f71cac97d56743b8ae8e2321e24&",
+  },
+  {
+    trigger: "!黨旗",
+    response:
+      "https://cdn.discordapp.com/attachments/1271056903350255646/1271734977842778153/ezgif-6-1c5871195afe_1.gif?ex=68eea73e&is=68ed55be&hm=fc47c947c6a61a69a09a743c3744e13fae0ae85ffb33a5438b877e43c4d59b73&",
+  },
+  {
+    trigger: "!變",
+    response:
+      "https://media.discordapp.net/attachments/826121054086627388/919876520988782632/NCRMZRFB6SODLC.gif?ex=68eeba05&is=68ed6885&hm=960e19db825d853ae13cf3557fc2d91a0055204f1a38bbbe68059100e2c70bb0&",
+  },
+  { trigger: "!贖", response: "https://imgur.com/DumSMmE" },
+  { trigger: "!二口", response: "https://imgur.com/TX8FRcJ" },
+  {
+    trigger: "!一發入魂",
+    response:
+      "https://tenor.com/view/blushing-anime-girl-mad-blush-gif-14364941",
+  },
+  {
+    trigger: "!共產",
+    response:
+      "https://tenor.com/view/soviet-union-propaganda-stalinium-gif-16289670004460099406",
+  },
+  {
+    trigger: "!蛋雕",
+    response:
+      "https://tenor.com/view/the-greed-of-man-adam-cheng-big-era-%E5%A4%A7%E6%99%82%E4%BB%A3-%E4%B8%81%E8%9F%B9-gif-12906768",
+  },
   //多回覆
+  {
+    trigger: "!摩卡",
+    response: [
+      "摩卡:安穩的蜷縮",
+      "https://cdn.discordapp.com/attachments/1098447020433346671/1422481432516886540/2.png?ex=68eea0d1&is=68ed4f51&hm=5f1a9f6b0b38179a35dce62bd1d0a438d62d438a3d1f9ee77eac36b14110ded3&",
+      "https://cdn.discordapp.com/attachments/1282970244603842560/1427539889221795861/qXPGz8W.jpg?ex=68ef3b9f&is=68edea1f&hm=ec9209ff72bd1304cc5d527b5ab9bb6cd7082a666d90da98b7d62fea2d6596e7&",
+    ],
+  },
+  {
+    trigger: "!yago",
+    response: [
+      "https://cdn.discordapp.com/attachments/826121054086627388/1422846991880163408/7YPB9PKQN0WMYR2AD.gif?ex=68e8b506&is=68e76386&hm=a394445192e25f8eb0fcb00b70ece6a658e07bb9e1ff3ba2a797239da56e4624&",
+      "https://media.discordapp.net/attachments/626370132557561906/1031390438428528640/246dd6ce71ddc7e9.gif?ex=68ee5b72&is=68ed09f2&hm=e611580d117524c4c3949bc687713f13293dd203022ce018523751b11d9289e6&",
+    ],
+  },
   {
     trigger: "!拔刀",
     response: [
@@ -153,6 +200,13 @@ module.exports = [
     response: [
       "https://cdn.discordapp.com/attachments/1425749836321390632/1425761139622416414/54847777.png?ex=68e8c309&is=68e77189&hm=4cd3c8980ce430c71aa29920684e87e93e327a55091b4dc7615f71d1675025ee&",
       "https://cdn.discordapp.com/attachments/1098447020433346671/1302339360628150292/55667788_1.gif?ex=68e8a84b&is=68e756cb&hm=af1261f52b99aafb61050bbac6df8021a6098687cf2d8cf9ed1432bc2c402769&",
+    ],
+  },
+  {
+    trigger: "!土下座",
+    response: [
+      "https://cdn.discordapp.com/attachments/723087012319723521/982719452992917505/B19275F2-6F4F-4D7C-A0DC-EAF4D231CC6E-3618-00001EAC7669FB17.gif?ex=68efee4f&is=68ee9ccf&hm=aa230c7311e2a6c3c8d49feaafdd0098d11e1fbf927f86877e699ad4428786c5&",
+      "https://tenor.com/view/break-dance-kneel-gif-25018583",
     ],
   },
 ];

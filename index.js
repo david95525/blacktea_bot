@@ -36,21 +36,52 @@ function checkCooldown(userId, command) {
 // === 處理訊息 ===
 client.on("messageCreate", async (message) => {
   if (message.author.bot) return;
-
   const content = message.content.trim();
-
   // === !list 指令 ===
   if (content === "!list") {
-    const listText = commands
-      .map((c) => c.trigger)
-      .reduce((acc, cur, i) => {
+    // 分類
+    const textCmds = [];
+    const imageCmds = [];
+    const randomCmds = [];
+    for (const c of commands) {
+      if (Array.isArray(c.response)) {
+        // 多回覆 → 隨機
+        randomCmds.push(c.trigger);
+      } else if (
+        typeof c.response === "string" &&
+        c.response.startsWith("http")
+      ) {
+        // 單一網址 → 圖片
+        imageCmds.push(c.trigger);
+      } else {
+        // 文字
+        textCmds.push(c.trigger);
+      }
+    }
+    // 把每 10 個換行
+    function formatList(list) {
+      return list.reduce((acc, cur, i) => {
         const sep = (i + 1) % 10 === 0 ? "\n" : " ";
         return acc + cur + sep;
       }, "");
+    }
     const embed = new EmbedBuilder()
-      .setTitle("可用指令")
-      .setDescription(listText)
-      .setColor(0x00ae86);
+      .setTitle("可用指令清單")
+      .setColor(0x00ae86)
+      .addFields(
+        {
+          name: "文字指令",
+          value: textCmds.length ? formatList(textCmds) : "（無）",
+        },
+        {
+          name: "圖片或GIF指令",
+          value: imageCmds.length ? formatList(imageCmds) : "（無）",
+        },
+        {
+          name: "隨機指令",
+          value: randomCmds.length ? formatList(randomCmds) : "（無）",
+        }
+      );
     message.channel.send({ embeds: [embed] });
     return;
   }
