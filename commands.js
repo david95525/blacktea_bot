@@ -131,6 +131,16 @@ module.exports = [
     response:
       "https://tenor.com/view/the-greed-of-man-adam-cheng-big-era-%E5%A4%A7%E6%99%82%E4%BB%A3-%E4%B8%81%E8%9F%B9-gif-12906768",
   },
+  {
+    trigger: "!艦隊",
+    response:
+      "https://media.discordapp.net/attachments/546653467498905620/755974836035256330/12.gif?ex=68f24f2e&is=68f0fdae&hm=fdcd051a7bbb9dc53420812de0d16088cc927d95b26dc123f2a8b9ae382ace43&",
+  },
+  {
+    trigger: "!搬磚",
+    response:
+      "https://cdn.discordapp.com/attachments/511037041447010323/1366990728001224754/952eedea095fcf702f4a8e435c70ac26.gif?ex=68f1c253&is=68f070d3&hm=27d541fe9efb36460010484b601c45d75209c0e8fdbcf438b8dca68eccfee66f&",
+  },
   //多回覆
   {
     trigger: "!摩卡",
