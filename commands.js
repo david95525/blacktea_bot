@@ -94,11 +94,7 @@ module.exports = [
     response:
       "https://tenor.com/view/happy-birthday-hbd-long-gundam-suletta-gif-27082431",
   },
-  {
-    trigger: "!狗",
-    response:
-      "https://cdn.discordapp.com/attachments/1367676124066353162/1395395220748763188/IMG_6628.gif?ex=68ee4e91&is=68ecfd11&hm=abfd2df86fe5e53cb0a59915c7852f5cabb360b84e1a3e60809b68e28175f43e&",
-  },
+
   {
     trigger: "!托馬",
     response:
@@ -245,6 +241,20 @@ module.exports = [
     response: [
       "https://imgur.com/TJleTHe",
       "https://cdn.discordapp.com/attachments/996977347997728829/1169641903629803641/-4ada3Qk03-4deyXtZ7zT1kS5c-6o.gif?ex=68f25068&is=68f0fee8&hm=f342df20c8d9cfd8e9f5dd7bfae5501883748a60986ad63570d8f14e2e020b78&",
+    ],
+  },
+  {
+    trigger: "!狗",
+    response: [
+      "https://cdn.discordapp.com/attachments/1367676124066353162/1395395220748763188/IMG_6628.gif?ex=68ee4e91&is=68ecfd11&hm=abfd2df86fe5e53cb0a59915c7852f5cabb360b84e1a3e60809b68e28175f43e&",
+      "https://cdn.discordapp.com/attachments/433810018014330918/1272588854016217118/nalilaidegou.gif?ex=68f26b3a&is=68f119ba&hm=67293426ba9e1fe3ce91dd8bd230197f5ec2ef6ef7f1be2b255fc1057d01047e&",
+    ],
+  },
+  {
+    trigger: "!歐洲",
+    response: [
+      "https://media.discordapp.net/attachments/541949615755362318/1092090492969287690/2a0df7373688762f.gif?ex=68f2f8c7&is=68f1a747&hm=5efce41ab7e6f8b3fa403a6d35f242f5f6823eda3bf1043d5b7ccf5e3f4d6f74&",
+      "https://cdn.discordapp.com/attachments/1143066720668504158/1333320656091086888/71BF2559-F0D2-4CDE-ADBC-3813BB4A6114.gif?ex=68f288e0&is=68f13760&hm=75572a7955a3439c768bce55dd5dbb0ab37cf0d52fba638a9cc9528b1c54dc1d&",
     ],
   },
 ];
