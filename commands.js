@@ -59,15 +59,15 @@ module.exports = [
       "https://cdn.discordapp.com/attachments/1100943106880319570/1285489857048870975/remix-7e799287-7dc3-4001-91f7-9e6f039d81ac.png?ex=68e8a9b9&is=68e75839&hm=2c68c479f47f319a998b8b05a147cd8c7eade5e95a8a9759e06ada3dbfdcef01&",
   },
   {
-    trigger: "!moga",
-    response:
-      "https://cdn.discordapp.com/attachments/1100943106880319570/1339615817398091927/87878787877.png?ex=68ec6eb3&is=68eb1d33&hm=109a4e690c2e2deef0481adc7a92c911e8c1accf956adf7c16edc2bce52c0a47&",
-  },
-  {
     trigger: "!舔",
     response: "https://i.meee.com.tw/xytGmPj.png",
   },
   // === GIF ===
+  {
+    trigger: "!RTA",
+    response:
+      "https://cdn.discordapp.com/attachments/1270969882502234172/1270971335191040011/1723093556227.gif?ex=68e8944b&is=68e742cb&hm=3bf7a6ab78b6e37775908afc6e2110a192456a8984ff901805d1fc712cc66a11&",
+  },
   { trigger: "!sex", response: "https://imgur.com/QVt1K7Z" },
   {
     trigger: "!噴",
@@ -132,6 +132,17 @@ module.exports = [
       "https://tenor.com/view/the-greed-of-man-adam-cheng-big-era-%E5%A4%A7%E6%99%82%E4%BB%A3-%E4%B8%81%E8%9F%B9-gif-12906768",
   },
   {
+    trigger: "!硬",
+    response:
+      "https://media.discordapp.net/attachments/595388025463242800/1051463019353346108/kyaru-eternal-pp.gif?ex=68f0307f&is=68eedeff&hm=82d3b3d72c86930a42cb4d7eef2ac6cbe18749e081d6d3f21cd48b0818ad1838&",
+  },
+  {
+    trigger: "!超渡",
+    response:
+      "https://cdn.discordapp.com/attachments/477755023787556866/1292031733063221308/4dc1a4c67b76236c.gif?ex=68effb91&is=68eeaa11&hm=a7748e4552dbff9d13af87fbd7368d57923a51391b0be2d6f0fdc548ddd22de2&",
+  },
+
+  {
     trigger: "!艦隊",
     response:
       "https://media.discordapp.net/attachments/546653467498905620/755974836035256330/12.gif?ex=68f24f2e&is=68f0fdae&hm=fdcd051a7bbb9dc53420812de0d16088cc927d95b26dc123f2a8b9ae382ace43&",
@@ -164,11 +175,7 @@ module.exports = [
       "https://tenor.com/view/sheathing-the-sword-puff-meow-chef-that-little-puff-slicing-an-apple-gif-14446880999248387316",
     ],
   },
-  {
-    trigger: "!RTA",
-    response:
-      "https://cdn.discordapp.com/attachments/1270969882502234172/1270971335191040011/1723093556227.gif?ex=68e8944b&is=68e742cb&hm=3bf7a6ab78b6e37775908afc6e2110a192456a8984ff901805d1fc712cc66a11&",
-  },
+
   {
     trigger: "!伊泉",
     response: [
@@ -217,6 +224,27 @@ module.exports = [
     response: [
       "https://cdn.discordapp.com/attachments/723087012319723521/982719452992917505/B19275F2-6F4F-4D7C-A0DC-EAF4D231CC6E-3618-00001EAC7669FB17.gif?ex=68efee4f&is=68ee9ccf&hm=aa230c7311e2a6c3c8d49feaafdd0098d11e1fbf927f86877e699ad4428786c5&",
       "https://tenor.com/view/break-dance-kneel-gif-25018583",
+    ],
+  },
+  {
+    trigger: "!moga",
+    response: [
+      "https://cdn.discordapp.com/attachments/1100943106880319570/1339615817398091927/87878787877.png?ex=68ec6eb3&is=68eb1d33&hm=109a4e690c2e2deef0481adc7a92c911e8c1accf956adf7c16edc2bce52c0a47&",
+      "https://cdn.discordapp.com/attachments/1285105364936818718/1424662481808130100/5acb04d78445a0e7.jpg?ex=68eff894&is=68eea714&hm=e178418f2938198213b8064867a49320ba547768b67b752d87d7b87916b214ac&",
+    ],
+  },
+  {
+    trigger: "!修仙",
+    response: [
+      "(′・ω・‵) 等他上元嬰才能大殺四方 現在才剛結丹",
+      "(′・ω・‵) 元嬰之下皆螻蟻 我只剩下築基",
+    ],
+  },
+  {
+    trigger: "!加爆",
+    response: [
+      "https://imgur.com/TJleTHe",
+      "https://cdn.discordapp.com/attachments/996977347997728829/1169641903629803641/-4ada3Qk03-4deyXtZ7zT1kS5c-6o.gif?ex=68f25068&is=68f0fee8&hm=f342df20c8d9cfd8e9f5dd7bfae5501883748a60986ad63570d8f14e2e020b78&",
     ],
   },
 ];
