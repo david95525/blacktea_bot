@@ -62,6 +62,11 @@ module.exports = [
     trigger: "!舔",
     response: "https://i.meee.com.tw/xytGmPj.png",
   },
+  {
+    trigger: "!邪教",
+    response:
+      "https://cdn.discordapp.com/attachments/1277494264309223508/1430065267936858122/image.png?ex=68f86b91&is=68f71a11&hm=ba5db2486f9e6e04937601d9c9be36ca7f414c456d20afe9a1751565ea22f0cc&",
+  },
   // === GIF ===
   {
     trigger: "!RTA",
@@ -147,6 +152,16 @@ module.exports = [
     trigger: "!搬磚",
     response:
       "https://cdn.discordapp.com/attachments/511037041447010323/1366990728001224754/952eedea095fcf702f4a8e435c70ac26.gif?ex=68f1c253&is=68f070d3&hm=27d541fe9efb36460010484b601c45d75209c0e8fdbcf438b8dca68eccfee66f&",
+  },
+  {
+    trigger: "!你說什麼",
+    response:
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1428653111081439275/ScreenRecording_10-17-2025_15-53-56_1.mov?ex=68f7e5a4&is=68f69424&hm=40ec97d88a4353927015864268636f99c568905cea5c0837d05774d28faa4941&",
+  },
+  {
+    trigger: "!找找",
+    response:
+      "https://cdn.discordapp.com/attachments/1143066720668504158/1426633363090833408/FDownloader.Net_AQM-RgwU7aoOekH1i3uuqQ6G6KPEbGo1j_X7JR5MsGX3xYQsa75spBBMZzKxTR5MYZ0kzZGJLP1gTUT4_bWG1nC726DBdQsq8x1yaY8VO1F6jg_720p_HD.mp4?ex=68f8759b&is=68f7241b&hm=0d3b8d73c85e2e71d37ccbd492c6867ab37b75022cd48725671def4b17986fe0&",
   },
   //多回覆
   {
@@ -255,6 +270,20 @@ module.exports = [
     response: [
       "https://media.discordapp.net/attachments/541949615755362318/1092090492969287690/2a0df7373688762f.gif?ex=68f2f8c7&is=68f1a747&hm=5efce41ab7e6f8b3fa403a6d35f242f5f6823eda3bf1043d5b7ccf5e3f4d6f74&",
       "https://cdn.discordapp.com/attachments/1143066720668504158/1333320656091086888/71BF2559-F0D2-4CDE-ADBC-3813BB4A6114.gif?ex=68f288e0&is=68f13760&hm=75572a7955a3439c768bce55dd5dbb0ab37cf0d52fba638a9cc9528b1c54dc1d&",
+    ],
+  },
+  {
+    trigger: "!戰果",
+    response: [
+      "https://imgur.com/X94A2DK",
+      "https://cdn.discordapp.com/attachments/768295038920687647/1411624860211351572/1756627976377.gif?ex=68f89219&is=68f74099&hm=fc88553f2fb43a442a97e1e3e995e6c0402a3275105bac13f438e70f04eb4e09&",
+    ],
+  },
+  {
+    trigger: "!瑪莉",
+    response: [
+      "https://tenor.com/view/blue-archive-mari-cat-gun-desert-eagle-gif-14073655309770333588",
+      "https://cdn.discordapp.com/attachments/1247779126048456704/1270922702764642344/horuhara-1819564655796473872-ezgif.com-video-to-gif-converter.gif?ex=68f83900&is=68f6e780&hm=6b0a2c218501f5fb68fbca2f21c911ac59f83cd25cec4a9581c2c89059d7a84b&",
     ],
   },
 ];
