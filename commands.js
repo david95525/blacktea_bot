@@ -67,6 +67,16 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/attachments/1277494264309223508/1430065267936858122/image.png?ex=68f86b91&is=68f71a11&hm=ba5db2486f9e6e04937601d9c9be36ca7f414c456d20afe9a1751565ea22f0cc&",
   },
+  {
+    trigger: "!貓",
+    response:
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1430144616799273030/received_169364943980914.jpg?ex=68f95e37&is=68f80cb7&hm=52b79ec43fdaa04e1d3f70e8be04d052a57b7e1e0469cee2b8674b2ee6e230d1&",
+  },
+  {
+    trigger: "!海防",
+    response:
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1430165546237689927/image.png?ex=68f971b5&is=68f82035&hm=92a8f11cfc1aa00797d76e93fd795b880994bf02158fd12c7d9a4885f5e2c811&",
+  },
   // === GIF ===
   {
     trigger: "!RTA",
@@ -153,6 +163,18 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/attachments/511037041447010323/1366990728001224754/952eedea095fcf702f4a8e435c70ac26.gif?ex=68f1c253&is=68f070d3&hm=27d541fe9efb36460010484b601c45d75209c0e8fdbcf438b8dca68eccfee66f&",
   },
+
+  {
+    trigger: "!是這樣沒錯",
+    response:
+      "https://tenor.com/view/mujica-%E6%98%AF%E9%80%99%E6%A8%A3%E6%B2%92%E9%8C%AF-%E4%BD%86%E4%B8%8D%E6%98%AF%E9%80%99%E6%A8%A3-gif-1935154853878510452",
+  },
+  {
+    trigger: "!上好美盤",
+    response:
+      "https://tenor.com/view/%E7%9B%A4%E5%AD%90-%E4%B8%8A%E5%A5%BD%E7%BE%8E%E7%9B%A4-%E6%B4%BE%E5%A4%A7%E6%98%9F-gif-15314856103226048504",
+  },
+  //影片
   {
     trigger: "!你說什麼",
     response:
@@ -177,6 +199,8 @@ module.exports = [
     response: [
       "https://cdn.discordapp.com/attachments/826121054086627388/1422846991880163408/7YPB9PKQN0WMYR2AD.gif?ex=68e8b506&is=68e76386&hm=a394445192e25f8eb0fcb00b70ece6a658e07bb9e1ff3ba2a797239da56e4624&",
       "https://media.discordapp.net/attachments/626370132557561906/1031390438428528640/246dd6ce71ddc7e9.gif?ex=68ee5b72&is=68ed09f2&hm=e611580d117524c4c3949bc687713f13293dd203022ce018523751b11d9289e6&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1430144200283783219/596292a3100d4bc3b5ab4e6b476dd623.png?ex=68f95dd4&is=68f80c54&hm=861fc2675f943daef322a0e2b173fb2a2d903f636c4873a49edebbe9acfbf147&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1430164358851203172/image.png?ex=68f9709a&is=68f81f1a&hm=b7c9b0e01613c69df46b1e14a0a72ad34567ec03a2fc43c32333b39faaf8a82d&",
     ],
   },
   {
@@ -220,7 +244,7 @@ module.exports = [
       "https://cdn.discordapp.com/attachments/1425749836321390632/1425761140612272138/3G.png?ex=68e8c309&is=68e77189&hm=1ced779d6b5fc1f927dbbc3e54f1c8b24861fbbc8141c266b577d850ac0aff1c&",
       //抽不到
       "https://cdn.discordapp.com/attachments/1425749836321390632/1425761141237481524/1154878787.png?ex=68e8c309&is=68e77189&hm=8404c0a715a1b2e651734d4264f5d31d424948231b621b8c5a9c6c28ae691201&",
-      "https://cdn.discordapp.com/attachments/1425749836321390632/1425761140314734675/59598888.jpg?ex=68e8c309&is=68e77189&hm=9379e5306c4a48f25dbb08ec812725383c4d2fc8920c91c2bafba4e84ac477d7&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1430423779959504946/Gn6_wdAb0AAgfez.jpg?ex=68f9b975&is=68f867f5&hm=66341c6e9d9f3c4f31fe60a4b0877c03a659109295b4f28dc69aef1483ac0385&",
     ],
   },
   {
@@ -284,6 +308,24 @@ module.exports = [
     response: [
       "https://tenor.com/view/blue-archive-mari-cat-gun-desert-eagle-gif-14073655309770333588",
       "https://cdn.discordapp.com/attachments/1247779126048456704/1270922702764642344/horuhara-1819564655796473872-ezgif.com-video-to-gif-converter.gif?ex=68f83900&is=68f6e780&hm=6b0a2c218501f5fb68fbca2f21c911ac59f83cd25cec4a9581c2c89059d7a84b&",
+    ],
+  },
+  {
+    trigger: "!神風",
+    response: [
+      "https://upload.wikimedia.org/wikipedia/commons/6/63/Kamikaze_WW2_USN.gif",
+      "https://na.cx/i/fBv7A6b.gif",
+      "https://tenor.com/view/plane-crash-gif-9073361",
+      "https://i.makeagif.com/media/10-20-2022/ZssKyl.gif",
+    ],
+  },
+  {
+    trigger: "!審議",
+    response: [
+      "https://media.discordapp.net/attachments/1425749836321390632/1430432024744951889/87cde473.jpg?ex=68f9c122&is=68f86fa2&hm=2d6ee42805f68744c738773471ac885e827a512dc60d4be27ccc2ea378ffe45e&=&format=webp",
+      "https://media.discordapp.net/attachments/1425749836321390632/1430432025055068230/e9f1a611.jpg?ex=68f9c122&is=68f86fa2&hm=d0a2f9302704fd8ac1d4ea6a3c3429171a228e33b8851cdb4987f91b7fb600ff&=&format=webp",
+      "https://media.discordapp.net/attachments/1425749836321390632/1430432025587748974/c5f86122.jpg?ex=68f9c123&is=68f86fa3&hm=2ad7e752c21d0478843474e8b016cd1aa528b8292f56d767a27f56a25386b79f&=&format=webp",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1430433061060739133/540993925_24553688677606320_4173214684982277541.png?ex=68f9c219&is=68f87099&hm=ee864869460dba31988a0ba136b4866dc3db57e16689926216571d104a84eb74&",
     ],
   },
 ];
