@@ -174,6 +174,12 @@ module.exports = [
     response:
       "https://tenor.com/view/%E7%9B%A4%E5%AD%90-%E4%B8%8A%E5%A5%BD%E7%BE%8E%E7%9B%A4-%E6%B4%BE%E5%A4%A7%E6%98%9F-gif-15314856103226048504",
   },
+  {
+    trigger: "!胖",
+    response:
+      "https://cdn.discordapp.com/emojis/1115533369925713922.webp?size=160&animated=true",
+  },
+  { trigger: "!YOHO", response: "https://imgur.com/QhOzdko" },
   //影片
   {
     trigger: "!你說什麼",
