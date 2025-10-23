@@ -75,7 +75,7 @@ module.exports = [
   {
     trigger: "!海防",
     response:
-      "https://cdn.discordapp.com/attachments/1425749836321390632/1430165546237689927/image.png?ex=68f971b5&is=68f82035&hm=92a8f11cfc1aa00797d76e93fd795b880994bf02158fd12c7d9a4885f5e2c811&",
+      "||https://cdn.discordapp.com/attachments/1425749836321390632/1430165546237689927/image.png?ex=68f971b5&is=68f82035&hm=92a8f11cfc1aa00797d76e93fd795b880994bf02158fd12c7d9a4885f5e2c811&||",
   },
   // === GIF ===
   {
