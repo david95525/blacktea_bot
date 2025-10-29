@@ -10,6 +10,7 @@ module.exports = [
   { trigger: "!丁", response: "欺騙感情丁：這個艦娘強不強？不強我拆了" },
   { trigger: "!中", response: "噫！好了！我中了！" },
   { trigger: "!仲裁", response: "紅茶：你們都有罪" },
+  { trigger: "!大貓", response: "(^・ω・^=)" },
 
   // === 圖片回覆 ===
   {
@@ -332,6 +333,21 @@ module.exports = [
       "https://media.discordapp.net/attachments/1425749836321390632/1430432025055068230/e9f1a611.jpg?ex=68f9c122&is=68f86fa2&hm=d0a2f9302704fd8ac1d4ea6a3c3429171a228e33b8851cdb4987f91b7fb600ff&=&format=webp",
       "https://media.discordapp.net/attachments/1425749836321390632/1430432025587748974/c5f86122.jpg?ex=68f9c123&is=68f86fa3&hm=2ad7e752c21d0478843474e8b016cd1aa528b8292f56d767a27f56a25386b79f&=&format=webp",
       "https://cdn.discordapp.com/attachments/1425749836321390632/1430433061060739133/540993925_24553688677606320_4173214684982277541.png?ex=68f9c219&is=68f87099&hm=ee864869460dba31988a0ba136b4866dc3db57e16689926216571d104a84eb74&",
+    ],
+  },
+  {
+    trigger: "!噁心",
+    response: [
+      "https://media.discordapp.net/attachments/1155759582178713711/1207217713080967209/IMG_0988.png?ex=6902625b&is=690110db&hm=f75aafccae1dc19c69d789728ac01a6ab46389cc2e157a6b7489020be4ac5750&",
+      "https://media.discordapp.net/attachments/1155759582178713711/1208057920655335454/9dac78f8d72a60593c7d51236e34349b033bba3b.jpg?ex=6902251c&is=6900d39c&hm=e48047541bd24f7cfd6dab744f3ec421a448836ddaf6bfe1cdc0ca974315a86c&",
+      "https://media.discordapp.net/attachments/1155766946567041065/1200625953479606272/112851830_p0.png?ex=6902224d&is=6900d0cd&hm=1cdab21e91991ef8062908fad07752e6a40dcac4aed9572cade169e15ed9160d&",
+    ],
+  },
+  {
+    trigger: "!媽",
+    response: [
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1432971407347679273/image.png?ex=6902fe1e&is=6901ac9e&hm=4f1983362cf7e2d7edac91399ebbcc9dd72bfbcb407a1fb300c683df4b3d7ce5&",
+      "https://cdn.discordapp.com/attachments/1287367567199174687/1295611099265110018/02.gif?ex=6902efdd&is=69019e5d&hm=6e519b7af30fccaf0b177dabc8ac62eace3f9feb6a2cfd901f6bc733620c1784&",
     ],
   },
 ];
