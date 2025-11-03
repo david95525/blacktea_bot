@@ -63,11 +63,7 @@ module.exports = [
     trigger: "!舔",
     response: "https://i.meee.com.tw/xytGmPj.png",
   },
-  {
-    trigger: "!邪教",
-    response:
-      "https://cdn.discordapp.com/attachments/1277494264309223508/1430065267936858122/image.png?ex=68f86b91&is=68f71a11&hm=ba5db2486f9e6e04937601d9c9be36ca7f414c456d20afe9a1751565ea22f0cc&",
-  },
+
   {
     trigger: "!貓",
     response:
@@ -181,6 +177,16 @@ module.exports = [
       "https://cdn.discordapp.com/emojis/1115533369925713922.webp?size=160&animated=true",
   },
   { trigger: "!YOHO", response: "https://imgur.com/QhOzdko" },
+  {
+    trigger: "!窮醒",
+    response:
+      "https://cdn.discordapp.com/attachments/630382967759568919/1243041779796807680/IMG_3360.gif?ex=6902da5e&is=690188de&hm=126cdee1ec9d6207eb2b004cbf9e62ff57b7d4a44cb8fdc95b70f2a554746ae1&",
+  },
+  {
+    trigger: "!富醒",
+    response:
+      "https://cdn.discordapp.com/attachments/1253714367518605312/1295662546736386089/1728980387594.gif?ex=69031fc7&is=6901ce47&hm=59a1ccccc92d2c3c1dbfc21c2ba601c7692d46c4dd716051efec00942b286402&",
+  },
   //影片
   {
     trigger: "!你說什麼",
@@ -249,6 +255,7 @@ module.exports = [
       "https://media.discordapp.net/attachments/1425749836321390632/1425761139962286140/1689237310961.png?ex=68e8c309&is=68e77189&hm=51df9e9ee99ff536d47ce93079b133445bdd715f6ec3c0098db4287ec8a9085f&=&format=webp&quality=lossless",
       //不知道
       "https://cdn.discordapp.com/attachments/1425749836321390632/1425761140612272138/3G.png?ex=68e8c309&is=68e77189&hm=1ced779d6b5fc1f927dbbc3e54f1c8b24861fbbc8141c266b577d850ac0aff1c&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1433309802817392660/image.png?ex=6904e206&is=69039086&hm=5c0a091f865ca889316b1d335f0fd8ca91473b0b47219cca75eb2173959aa944&",
       //抽不到
       "https://cdn.discordapp.com/attachments/1425749836321390632/1425761141237481524/1154878787.png?ex=68e8c309&is=68e77189&hm=8404c0a715a1b2e651734d4264f5d31d424948231b621b8c5a9c6c28ae691201&",
       "https://cdn.discordapp.com/attachments/1425749836321390632/1430423779959504946/Gn6_wdAb0AAgfez.jpg?ex=68f9b975&is=68f867f5&hm=66341c6e9d9f3c4f31fe60a4b0877c03a659109295b4f28dc69aef1483ac0385&",
@@ -348,6 +355,15 @@ module.exports = [
     response: [
       "https://cdn.discordapp.com/attachments/1425749836321390632/1432971407347679273/image.png?ex=6902fe1e&is=6901ac9e&hm=4f1983362cf7e2d7edac91399ebbcc9dd72bfbcb407a1fb300c683df4b3d7ce5&",
       "https://cdn.discordapp.com/attachments/1287367567199174687/1295611099265110018/02.gif?ex=6902efdd&is=69019e5d&hm=6e519b7af30fccaf0b177dabc8ac62eace3f9feb6a2cfd901f6bc733620c1784&",
+    ],
+  },
+  {
+    trigger: "!邪教",
+    response: [
+      "https://cdn.discordapp.com/attachments/1277494264309223508/1430065267936858122/image.png?ex=68f86b91&is=68f71a11&hm=ba5db2486f9e6e04937601d9c9be36ca7f414c456d20afe9a1751565ea22f0cc&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1433619727615393873/image.png?ex=690559ea&is=6904086a&hm=bd9b5934f4a3cf82465a5e6c31eb7f3f9b636c0dca392b995bba920b321f8c4c&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1433620040158286055/image.png?ex=69055a34&is=690408b4&hm=42ec0a1de622abe977029585675707b46bf4898594d4826282a60e142df8bada&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1433636938941730920/image.png?ex=690569f1&is=69041871&hm=a86c0b886788459eeb27b5b0ac0f43ab10ff7d57a999046d53bcb0af9c29dd08&",
     ],
   },
 ];
