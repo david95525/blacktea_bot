@@ -7,7 +7,6 @@ module.exports = [
   { trigger: "!欺騙", response: "(′・ω・‵) 大家都被欺騙感情丁欺騙感情" },
   { trigger: "!破防", response: "(′ Q ω Q ‵)" },
   { trigger: "!尻尻", response: "尻尻：雅狗欠我狗爸摳" },
-  { trigger: "!丁", response: "欺騙感情丁：這個艦娘強不強？不強我拆了" },
   { trigger: "!中", response: "噫！好了！我中了！" },
   { trigger: "!仲裁", response: "紅茶：你們都有罪" },
   { trigger: "!大貓", response: "(^・ω・^=)" },
@@ -187,6 +186,16 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/attachments/1253714367518605312/1295662546736386089/1728980387594.gif?ex=69031fc7&is=6901ce47&hm=59a1ccccc92d2c3c1dbfc21c2ba601c7692d46c4dd716051efec00942b286402&",
   },
+  {
+    trigger: "!尻",
+    response:
+      "https://cdn.discordapp.com/attachments/519562295483826178/1248895330787917856/062043_b003addbaee9605697403051aed95fa5.gif?ex=6908fcaa&is=6907ab2a&hm=3d9511216be0bae5e899f249cf50ee84bbfc9fb3ba66b95a680c4eeac9776c53&",
+  },
+  {
+    trigger: "!丁",
+    response:
+      "https://cdn.discordapp.com/attachments/1432190114859188275/1435097110121939025/1762224172024.gif?ex=690ab9d5&is=69096855&hm=cea3c077caf2d70419fa3c409a1f09810342d7e1c45a91123708894504e41ef3&",
+  },
   //影片
   {
     trigger: "!你說什麼",
@@ -239,6 +248,7 @@ module.exports = [
       "https://tenor.com/view/coffee-hyouka-cosmo-clip-tea-gif-14703529",
       "https://tenor.com/view/l-putting-sugar-sugar-cup-tea-gif-16229647993365934322",
       "https://cdn.discordapp.com/attachments/1425749836321390632/1425753512846819380/20230831_163039.JPG?ex=68e8bbee&is=68e76a6e&hm=d02e19a4a9274847e0ae36c7f24042dcc64fa3c1da1037d464ccee868f10c6f9&",
+      "https://tenor.com/view/anime-coffee-sugar-gif-15463484",
     ],
   },
   {
@@ -322,6 +332,8 @@ module.exports = [
     response: [
       "https://tenor.com/view/blue-archive-mari-cat-gun-desert-eagle-gif-14073655309770333588",
       "https://cdn.discordapp.com/attachments/1247779126048456704/1270922702764642344/horuhara-1819564655796473872-ezgif.com-video-to-gif-converter.gif?ex=68f83900&is=68f6e780&hm=6b0a2c218501f5fb68fbca2f21c911ac59f83cd25cec4a9581c2c89059d7a84b&",
+      //跳舞
+      "https://imgur.com/NBoUxoZ",
     ],
   },
   {
@@ -364,6 +376,13 @@ module.exports = [
       "https://cdn.discordapp.com/attachments/1425749836321390632/1433619727615393873/image.png?ex=690559ea&is=6904086a&hm=bd9b5934f4a3cf82465a5e6c31eb7f3f9b636c0dca392b995bba920b321f8c4c&",
       "https://cdn.discordapp.com/attachments/1425749836321390632/1433620040158286055/image.png?ex=69055a34&is=690408b4&hm=42ec0a1de622abe977029585675707b46bf4898594d4826282a60e142df8bada&",
       "https://cdn.discordapp.com/attachments/1425749836321390632/1433636938941730920/image.png?ex=690569f1&is=69041871&hm=a86c0b886788459eeb27b5b0ac0f43ab10ff7d57a999046d53bcb0af9c29dd08&",
+    ],
+  },
+  {
+    trigger: "!娚",
+    response: [
+      "https://tenor.com/view/steins-gate-gif-21955651",
+      "https://tenor.com/view/makoto-maid-gif-9820173484873624883",
     ],
   },
 ];
