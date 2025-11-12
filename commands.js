@@ -73,6 +73,16 @@ module.exports = [
     response:
       "||https://cdn.discordapp.com/attachments/1425749836321390632/1430165546237689927/image.png?ex=68f971b5&is=68f82035&hm=92a8f11cfc1aa00797d76e93fd795b880994bf02158fd12c7d9a4885f5e2c811&||",
   },
+  {
+    trigger: "!擠奶",
+    response:
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1425753981153443880/image.png?ex=68e8bc5e&is=68e76ade&hm=d195529fa0ca16c88c04f6fe0ad529483ee22fb0bf2296306c1fbb24ecdc105d&",
+  },
+  {
+    trigger: "!北市",
+    response:
+      "https://cdn.discordapp.com/attachments/1282970244603842560/1437297336547016714/580911271_17866678686480087_5278668970508359902_n.png?ex=69140c74&is=6912baf4&hm=833ddf3075e24946a193005e0ec4ca26a733f6fe1fe289c2008ccc7dfbbfea46&",
+  },
   // === GIF ===
   {
     trigger: "!RTA",
@@ -211,7 +221,7 @@ module.exports = [
   {
     trigger: "!摩卡",
     response: [
-      "摩卡:安穩的蜷縮",
+      "https://cdn.discordapp.com/attachments/1282970244603842560/1423208950102229014/2.png?ex=69123bdf&is=6910ea5f&hm=c8df9a1488429ae216393f5127c56c13f88e4ebda350bea0d74e51374bdaef47&",
       "https://cdn.discordapp.com/attachments/1098447020433346671/1422481432516886540/2.png?ex=68eea0d1&is=68ed4f51&hm=5f1a9f6b0b38179a35dce62bd1d0a438d62d438a3d1f9ee77eac36b14110ded3&",
       "https://cdn.discordapp.com/attachments/1282970244603842560/1427539889221795861/qXPGz8W.jpg?ex=68ef3b9f&is=68edea1f&hm=ec9209ff72bd1304cc5d527b5ab9bb6cd7082a666d90da98b7d62fea2d6596e7&",
     ],
@@ -239,7 +249,6 @@ module.exports = [
       "https://cdn.discordapp.com/attachments/1183483970697052353/1274758342899662909/GIF_20240818_235308_943.gif?ex=68e88378&is=68e731f8&hm=e8a0c61073599f1f037bd290b73457fcc01c38dd7cd1af87d1a5293b2eada0dc&",
       "https://media.discordapp.net/attachments/826121054086627388/1152539288689442846/1145648247986196501.gif?ex=68e82b9b&is=68e6da1b&hm=ffa8cbd44748d10b275f136388817f6f068196266605bbbccbe8855c1d9debfa&",
       "https://cdn.discordapp.com/attachments/1425749836321390632/1425753908923469855/image.png?ex=68e8bc4d&is=68e76acd&hm=62050bac2d984456e6bc34aa91b04af0fb56970ee82a0ce05f308f85b44cd83c&",
-      "https://cdn.discordapp.com/attachments/1425749836321390632/1425753981153443880/image.png?ex=68e8bc5e&is=68e76ade&hm=d195529fa0ca16c88c04f6fe0ad529483ee22fb0bf2296306c1fbb24ecdc105d&",
     ],
   },
   {
@@ -383,6 +392,13 @@ module.exports = [
     response: [
       "https://tenor.com/view/steins-gate-gif-21955651",
       "https://tenor.com/view/makoto-maid-gif-9820173484873624883",
+      "https://tenor.com/view/akiyama-mizuki-project-sekai-%E4%B8%96%E7%95%8C%E8%A8%88%E7%95%AB%E7%B9%BD%E7%B4%9B%E8%88%9E%E5%8F%B0-%E6%9B%89%E5%B1%B1%E7%91%9E%E5%B8%8C-gif-26997684",
+      "https://tenor.com/view/made-in-abyss-marulk-rolling-hit-the-wall-head-hurty-gif-27258378",
+      "https://tenor.com/view/zombieland-saga-zombie-land-saga-zls-%E3%82%BE%E3%83%B3%E3%83%93%E3%83%A9%E3%83%B3%E3%83%89%E3%82%B5%E3%82%AC-lily-hoshikawa-gif-14080511087656013620",
+      "https://tenor.com/view/felix-argyle-felix-anime-trap-cute-gif-18705618",
+      "https://tenor.com/view/anime-girl-yofukashi-no-uta-smile-no-gif-4528623332498788300",
+      "https://tenor.com/view/akira-kemono-jihen-kemono-jihen-gif-23037633",
+      "https://tenor.com/view/hideri-kanzaki-blend-s-poss-anime-trap-gif-10374457"
     ],
   },
 ];
