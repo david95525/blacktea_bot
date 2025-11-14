@@ -83,13 +83,20 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/attachments/1282970244603842560/1437297336547016714/580911271_17866678686480087_5278668970508359902_n.png?ex=69140c74&is=6912baf4&hm=833ddf3075e24946a193005e0ec4ca26a733f6fe1fe289c2008ccc7dfbbfea46&",
   },
+  {
+    trigger: "!大雄",
+    response: "https://cdn.discordapp.com/attachments/1425749836321390632/1438370130156326912/75d415c1ba3f13ac62e4b14ad2ceeea3.png?ex=6916a212&is=69155092&hm=6a517bc13f278e35f73d351686ee773583f00d28f8a803a973ed70246b15672a&"
+  },
   // === GIF ===
   {
     trigger: "!RTA",
     response:
       "https://cdn.discordapp.com/attachments/1270969882502234172/1270971335191040011/1723093556227.gif?ex=68e8944b&is=68e742cb&hm=3bf7a6ab78b6e37775908afc6e2110a192456a8984ff901805d1fc712cc66a11&",
   },
-  { trigger: "!sex", response: "https://imgur.com/QVt1K7Z" },
+  {
+    trigger: "!sex",
+    response: "https://imgur.com/QVt1K7Z"
+  },
   {
     trigger: "!噴",
     response:
@@ -171,7 +178,7 @@ module.exports = [
   },
 
   {
-    trigger: "!是這樣沒錯",
+    trigger: "!沒錯",
     response:
       "https://tenor.com/view/mujica-%E6%98%AF%E9%80%99%E6%A8%A3%E6%B2%92%E9%8C%AF-%E4%BD%86%E4%B8%8D%E6%98%AF%E9%80%99%E6%A8%A3-gif-1935154853878510452",
   },
@@ -206,6 +213,7 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/attachments/1432190114859188275/1435097110121939025/1762224172024.gif?ex=690ab9d5&is=69096855&hm=cea3c077caf2d70419fa3c409a1f09810342d7e1c45a91123708894504e41ef3&",
   },
+  { trigger: "!咬", response: "https://tenor.com/view/minami-nanami-bottom-tier-character-tomozaki-kun-gif-25550981" },
   //影片
   {
     trigger: "!你說什麼",
