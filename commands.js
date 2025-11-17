@@ -87,6 +87,7 @@ module.exports = [
     trigger: "!大雄",
     response: "https://cdn.discordapp.com/attachments/1425749836321390632/1438370130156326912/75d415c1ba3f13ac62e4b14ad2ceeea3.png?ex=6916a212&is=69155092&hm=6a517bc13f278e35f73d351686ee773583f00d28f8a803a973ed70246b15672a&"
   },
+  { trigger: "!騙", response: "https://i.imgur.com/vuOhKXB.jpg" },
   // === GIF ===
   {
     trigger: "!RTA",
