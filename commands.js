@@ -87,7 +87,14 @@ module.exports = [
     trigger: "!大雄",
     response: "https://cdn.discordapp.com/attachments/1425749836321390632/1438370130156326912/75d415c1ba3f13ac62e4b14ad2ceeea3.png?ex=6916a212&is=69155092&hm=6a517bc13f278e35f73d351686ee773583f00d28f8a803a973ed70246b15672a&"
   },
-  { trigger: "!騙", response: "https://i.imgur.com/vuOhKXB.jpg" },
+  {
+    trigger: "!騙",
+    response: "https://i.imgur.com/vuOhKXB.jpg"
+  },
+  {
+    trigger: "!偷臭",
+    response: "https://cdn.discordapp.com/attachments/1425749836321390632/1439870927822258176/image.png?ex=691c17cc&is=691ac64c&hm=e7ad2bc2a1e65dc04e0a59d2c965c38a1c75df3293b28ac51030c569edcc8928&"
+  },
   // === GIF ===
   {
     trigger: "!RTA",
@@ -214,7 +221,14 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/attachments/1432190114859188275/1435097110121939025/1762224172024.gif?ex=690ab9d5&is=69096855&hm=cea3c077caf2d70419fa3c409a1f09810342d7e1c45a91123708894504e41ef3&",
   },
-  { trigger: "!咬", response: "https://tenor.com/view/minami-nanami-bottom-tier-character-tomozaki-kun-gif-25550981" },
+  {
+    trigger: "!99",
+    response: "https://tenor.com/view/falling-urso-bear-gif-11985320562084635255"
+  },
+  {
+    trigger: "!咬",
+    response: "https://tenor.com/view/minami-nanami-bottom-tier-character-tomozaki-kun-gif-25550981"
+  },
   //影片
   {
     trigger: "!你說什麼",
@@ -407,7 +421,8 @@ module.exports = [
       "https://tenor.com/view/felix-argyle-felix-anime-trap-cute-gif-18705618",
       "https://tenor.com/view/anime-girl-yofukashi-no-uta-smile-no-gif-4528623332498788300",
       "https://tenor.com/view/akira-kemono-jihen-kemono-jihen-gif-23037633",
-      "https://tenor.com/view/hideri-kanzaki-blend-s-poss-anime-trap-gif-10374457"
+      "https://tenor.com/view/hideri-kanzaki-blend-s-poss-anime-trap-gif-10374457",
+      "https://tenor.com/view/astolfo-gif-23045570"
     ],
   },
 ];
