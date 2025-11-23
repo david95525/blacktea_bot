@@ -85,16 +85,19 @@ module.exports = [
   },
   {
     trigger: "!大雄",
-    response: "https://cdn.discordapp.com/attachments/1425749836321390632/1438370130156326912/75d415c1ba3f13ac62e4b14ad2ceeea3.png?ex=6916a212&is=69155092&hm=6a517bc13f278e35f73d351686ee773583f00d28f8a803a973ed70246b15672a&"
+    response:
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1438370130156326912/75d415c1ba3f13ac62e4b14ad2ceeea3.png?ex=6916a212&is=69155092&hm=6a517bc13f278e35f73d351686ee773583f00d28f8a803a973ed70246b15672a&",
   },
   {
     trigger: "!騙",
-    response: "https://i.imgur.com/vuOhKXB.jpg"
+    response: "https://i.imgur.com/vuOhKXB.jpg",
   },
   {
     trigger: "!偷臭",
-    response: "https://cdn.discordapp.com/attachments/1425749836321390632/1439870927822258176/image.png?ex=691c17cc&is=691ac64c&hm=e7ad2bc2a1e65dc04e0a59d2c965c38a1c75df3293b28ac51030c569edcc8928&"
+    response:
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1439870927822258176/image.png?ex=691c17cc&is=691ac64c&hm=e7ad2bc2a1e65dc04e0a59d2c965c38a1c75df3293b28ac51030c569edcc8928&",
   },
+  { trigger: "!你婆", response: "https://i.imgur.com/YDzW7ZT.jpg" },
   // === GIF ===
   {
     trigger: "!RTA",
@@ -103,7 +106,7 @@ module.exports = [
   },
   {
     trigger: "!sex",
-    response: "https://imgur.com/QVt1K7Z"
+    response: "https://imgur.com/QVt1K7Z",
   },
   {
     trigger: "!噴",
@@ -223,11 +226,13 @@ module.exports = [
   },
   {
     trigger: "!99",
-    response: "https://tenor.com/view/falling-urso-bear-gif-11985320562084635255"
+    response:
+      "https://tenor.com/view/falling-urso-bear-gif-11985320562084635255",
   },
   {
     trigger: "!咬",
-    response: "https://tenor.com/view/minami-nanami-bottom-tier-character-tomozaki-kun-gif-25550981"
+    response:
+      "https://tenor.com/view/minami-nanami-bottom-tier-character-tomozaki-kun-gif-25550981",
   },
   //影片
   {
@@ -247,6 +252,7 @@ module.exports = [
       "https://cdn.discordapp.com/attachments/1282970244603842560/1423208950102229014/2.png?ex=69123bdf&is=6910ea5f&hm=c8df9a1488429ae216393f5127c56c13f88e4ebda350bea0d74e51374bdaef47&",
       "https://cdn.discordapp.com/attachments/1098447020433346671/1422481432516886540/2.png?ex=68eea0d1&is=68ed4f51&hm=5f1a9f6b0b38179a35dce62bd1d0a438d62d438a3d1f9ee77eac36b14110ded3&",
       "https://cdn.discordapp.com/attachments/1282970244603842560/1427539889221795861/qXPGz8W.jpg?ex=68ef3b9f&is=68edea1f&hm=ec9209ff72bd1304cc5d527b5ab9bb6cd7082a666d90da98b7d62fea2d6596e7&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1442056241382690816/image.png?ex=69240b08&is=6922b988&hm=45a8b53a4659ec74ab372b49d8e34a6d79c4f74250c56e1746136bbe866de07c&",
     ],
   },
   {
@@ -269,8 +275,7 @@ module.exports = [
   {
     trigger: "!伊泉",
     response: [
-      "https://cdn.discordapp.com/attachments/1183483970697052353/1274758342899662909/GIF_20240818_235308_943.gif?ex=68e88378&is=68e731f8&hm=e8a0c61073599f1f037bd290b73457fcc01c38dd7cd1af87d1a5293b2eada0dc&",
-      "https://media.discordapp.net/attachments/826121054086627388/1152539288689442846/1145648247986196501.gif?ex=68e82b9b&is=68e6da1b&hm=ffa8cbd44748d10b275f136388817f6f068196266605bbbccbe8855c1d9debfa&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1440962872321638562/image.png?ex=692010c0&is=691ebf40&hm=dde10011f0967e5e6a3c019d9d6e72e1115958ef99fedea4bf3241d4613eb462&",
       "https://cdn.discordapp.com/attachments/1425749836321390632/1425753908923469855/image.png?ex=68e8bc4d&is=68e76acd&hm=62050bac2d984456e6bc34aa91b04af0fb56970ee82a0ce05f308f85b44cd83c&",
     ],
   },
@@ -422,7 +427,7 @@ module.exports = [
       "https://tenor.com/view/anime-girl-yofukashi-no-uta-smile-no-gif-4528623332498788300",
       "https://tenor.com/view/akira-kemono-jihen-kemono-jihen-gif-23037633",
       "https://tenor.com/view/hideri-kanzaki-blend-s-poss-anime-trap-gif-10374457",
-      "https://tenor.com/view/astolfo-gif-23045570"
+      "https://tenor.com/view/astolfo-gif-23045570",
     ],
   },
 ];
