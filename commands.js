@@ -257,8 +257,7 @@ module.exports = [
     response: [
       "https://cdn.discordapp.com/attachments/1282970244603842560/1423208950102229014/2.png?ex=69123bdf&is=6910ea5f&hm=c8df9a1488429ae216393f5127c56c13f88e4ebda350bea0d74e51374bdaef47&",
       "https://cdn.discordapp.com/attachments/1098447020433346671/1422481432516886540/2.png?ex=68eea0d1&is=68ed4f51&hm=5f1a9f6b0b38179a35dce62bd1d0a438d62d438a3d1f9ee77eac36b14110ded3&",
-      "https://cdn.discordapp.com/attachments/1282970244603842560/1427539889221795861/qXPGz8W.jpg?ex=68ef3b9f&is=68edea1f&hm=ec9209ff72bd1304cc5d527b5ab9bb6cd7082a666d90da98b7d62fea2d6596e7&",
-      "https://cdn.discordapp.com/attachments/1425749836321390632/1442056241382690816/image.png?ex=69240b08&is=6922b988&hm=45a8b53a4659ec74ab372b49d8e34a6d79c4f74250c56e1746136bbe866de07c&",
+      "https://cdn.discordapp.com/attachments/1282970244603842560/1427539889221795861/qXPGz8W.jpg?ex=68ef3b9f&is=68edea1f&hm=ec9209ff72bd1304cc5d527b5ab9bb6cd7082a666d90da98b7d62fea2d6596e7&"
     ],
   },
   {
