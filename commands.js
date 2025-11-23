@@ -98,6 +98,12 @@ module.exports = [
       "https://cdn.discordapp.com/attachments/1425749836321390632/1439870927822258176/image.png?ex=691c17cc&is=691ac64c&hm=e7ad2bc2a1e65dc04e0a59d2c965c38a1c75df3293b28ac51030c569edcc8928&",
   },
   { trigger: "!你婆", response: "https://i.imgur.com/YDzW7ZT.jpg" },
+  {
+    trigger: "!計算機",
+    response:
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1442056241382690816/image.png?ex=69240b08&is=6922b988&hm=45a8b53a4659ec74ab372b49d8e34a6d79c4f74250c56e1746136bbe866de07c&",
+  },
+
   // === GIF ===
   {
     trigger: "!RTA",
@@ -261,7 +267,6 @@ module.exports = [
       "https://cdn.discordapp.com/attachments/826121054086627388/1422846991880163408/7YPB9PKQN0WMYR2AD.gif?ex=68e8b506&is=68e76386&hm=a394445192e25f8eb0fcb00b70ece6a658e07bb9e1ff3ba2a797239da56e4624&",
       "https://media.discordapp.net/attachments/626370132557561906/1031390438428528640/246dd6ce71ddc7e9.gif?ex=68ee5b72&is=68ed09f2&hm=e611580d117524c4c3949bc687713f13293dd203022ce018523751b11d9289e6&",
       "https://cdn.discordapp.com/attachments/1425749836321390632/1430144200283783219/596292a3100d4bc3b5ab4e6b476dd623.png?ex=68f95dd4&is=68f80c54&hm=861fc2675f943daef322a0e2b173fb2a2d903f636c4873a49edebbe9acfbf147&",
-      "https://cdn.discordapp.com/attachments/1425749836321390632/1430164358851203172/image.png?ex=68f9709a&is=68f81f1a&hm=b7c9b0e01613c69df46b1e14a0a72ad34567ec03a2fc43c32333b39faaf8a82d&",
     ],
   },
   {
