@@ -43,11 +43,7 @@ module.exports = [
       "https://cdn.discordapp.com/attachments/1425749836321390632/1425755083039182889/584548878.png?ex=68e8bd65&is=68e76be5&hm=5dd05c53bde05d8e2279fe504fb31e707bac0be9cde1ef280d7423cec89dd5cd&",
   },
 
-  {
-    trigger: "!相信",
-    response:
-      "https://cdn.discordapp.com/attachments/1425749836321390632/1425761140922781707/1723450414495-1.webp?ex=68e8c309&is=68e77189&hm=3e1edb4d1772b423d42078412a47e78952d6ed34689103aff6688a0efc70d3c1&",
-  },
+
   {
     trigger: "!等",
     response:
@@ -239,6 +235,10 @@ module.exports = [
     trigger: "!咬",
     response:
       "https://tenor.com/view/minami-nanami-bottom-tier-character-tomozaki-kun-gif-25550981",
+  },
+  {
+    trigger: "!出擊",
+    response: "https://cdn.discordapp.com/attachments/1425749836321390632/1442062100980568144/b5b93044251e50eb.gif?ex=69260abd&is=6924b93d&hm=53b0c90d13f49a40530aa93379fea100e93c85dc7834cb6a60a3d3053839fc1e&"
   },
   //影片
   {
@@ -432,6 +432,16 @@ module.exports = [
       "https://tenor.com/view/akira-kemono-jihen-kemono-jihen-gif-23037633",
       "https://tenor.com/view/hideri-kanzaki-blend-s-poss-anime-trap-gif-10374457",
       "https://tenor.com/view/astolfo-gif-23045570",
+      "https://tenor.com/view/amane-himeno-amane-himeno-my-dress-up-darling-dress-up-darling-gif-5601713552061636913",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1442534456077582417/MEPxitb8bCKserIpogSU17b5bUJywzG8jgStSpi4IXY5HceSvgAzq.png?ex=6925c867&is=692476e7&hm=2e702ef7c91178e41fced96ac4d345d02ceb1db1413d825ea40cf2c93e0c7dc2&"
     ],
+  },
+  {
+    trigger: "!相信",
+    response:
+      [
+        "https://cdn.discordapp.com/attachments/1425749836321390632/1425761140922781707/1723450414495-1.webp?ex=68e8c309&is=68e77189&hm=3e1edb4d1772b423d42078412a47e78952d6ed34689103aff6688a0efc70d3c1&",
+        "https://cdn.discordapp.com/attachments/1425749836321390632/1442102653722038323/image.png?ex=69263081&is=6924df01&hm=5d3d9e1113d513b77fd9a44d21cf075dacf985b624f9613c523dbb61004f66c1&"
+      ]
   },
 ];
