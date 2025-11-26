@@ -5,6 +5,7 @@ module.exports = [
   { trigger: "!震怒", response: "(′・ω・‵) 嘎喔" },
   { trigger: "!爽尻", response: "(′・ω・‵) 這個尻尻 我們不要了" },
   { trigger: "!欺騙", response: "(′・ω・‵) 大家都被欺騙感情丁欺騙感情" },
+  { trigger: "!爽丁", response: "欺騙感情丁：今天撿到免費炒麵，潮爽DER" },
   { trigger: "!破防", response: "(′ Q ω Q ‵)" },
   { trigger: "!尻尻", response: "尻尻：雅狗欠我狗爸摳" },
   { trigger: "!中", response: "噫！好了！我中了！" },
@@ -290,6 +291,7 @@ module.exports = [
       "https://tenor.com/view/l-putting-sugar-sugar-cup-tea-gif-16229647993365934322",
       "https://cdn.discordapp.com/attachments/1425749836321390632/1425753512846819380/20230831_163039.JPG?ex=68e8bbee&is=68e76a6e&hm=d02e19a4a9274847e0ae36c7f24042dcc64fa3c1da1037d464ccee868f10c6f9&",
       "https://tenor.com/view/anime-coffee-sugar-gif-15463484",
+      "https://tenor.com/view/pandb-blacktea-gif-20279745"
     ],
   },
   {
