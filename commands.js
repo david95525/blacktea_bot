@@ -361,6 +361,7 @@ module.exports = [
     response: [
       "https://media.discordapp.net/attachments/541949615755362318/1092090492969287690/2a0df7373688762f.gif?ex=68f2f8c7&is=68f1a747&hm=5efce41ab7e6f8b3fa403a6d35f242f5f6823eda3bf1043d5b7ccf5e3f4d6f74&",
       "https://cdn.discordapp.com/attachments/1143066720668504158/1333320656091086888/71BF2559-F0D2-4CDE-ADBC-3813BB4A6114.gif?ex=68f288e0&is=68f13760&hm=75572a7955a3439c768bce55dd5dbb0ab37cf0d52fba638a9cc9528b1c54dc1d&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1443148489365393438/image.png?ex=69280444&is=6926b2c4&hm=176390a8a6f05939c053b37671d10524587a0d6c35c7693037bc71237350bf8c&"
     ],
   },
   {
