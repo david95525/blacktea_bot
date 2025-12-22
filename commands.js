@@ -100,7 +100,14 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/attachments/1425749836321390632/1442056241382690816/image.png?ex=69240b08&is=6922b988&hm=45a8b53a4659ec74ab372b49d8e34a6d79c4f74250c56e1746136bbe866de07c&",
   },
-
+  {
+    trigger: "!最新科技",
+    response: "https://cdn.discordapp.com/attachments/1100943106880319570/1443239579028164698/3f3acb34ca7bf5a2.jpg?ex=694602d9&is=6944b159&hm=fb6e1aac10088f2ebb3ddb807a7c6680c256e5cf602fe623b26951830adfa171&"
+  },
+  {
+    trigger: "!如果",
+    response: "https://cdn.discordapp.com/attachments/1425749836321390632/1451188111504703498/image-2.png?ex=6945ec7f&is=69449aff&hm=71384c5944ff6d651b54d714702a17178fc8425eede57f87f9ea360eec0cac10&"
+  },
   // === GIF ===
   {
     trigger: "!RTA",
@@ -206,7 +213,7 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/emojis/1115533369925713922.webp?size=160&animated=true",
   },
-  { trigger: "!YOHO", response: "https://imgur.com/QhOzdko" },
+  { trigger: "!yoho", response: "https://imgur.com/QhOzdko" },
   {
     trigger: "!窮醒",
     response:
