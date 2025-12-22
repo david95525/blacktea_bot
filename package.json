@@ -1,6 +1,6 @@
 {
   "name": "blacktea_bot",
-  "packageManager": "yarn@4.5.1",
+  "packageManager": "yarn@1.22.22",
   "dependencies": {
     "discord.js": "^14.23.2",
     "dotenv": "^17.2.3"
