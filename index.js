@@ -1,20 +1,5 @@
 require("dotenv").config();
 /* =========================
-   Express（給 Render 掃 port）
-========================= */
-const express = require("express");
-const app = express();
-const port = process.env.PORT || 4000;
-
-app.get("/", (req, res) => {
-  res.send("Discord bot is running");
-});
-
-app.listen(port, () => {
-  console.log(`🌐 HTTP server listening on port ${port}`);
-});
-
-/* =========================
    Discord Bot
 ========================= */
 const { Client, GatewayIntentBits, EmbedBuilder } = require("discord.js");
