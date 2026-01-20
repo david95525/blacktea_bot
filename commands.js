@@ -3,7 +3,7 @@ module.exports = [
   { trigger: "!去留", response: "(′・ω・‵) 該考慮去留了" },
   { trigger: "!下班", response: "(′・ω・‵) 走ㄌ走ㄌ" },
   { trigger: "!震怒", response: "(′・ω・‵) 嘎喔" },
-  { trigger: "!爽尻", response: "(′・ω・‵) 這個尻尻 我們不要了" },
+
   { trigger: "!欺騙", response: "(′・ω・‵) 大家都被欺騙感情丁欺騙感情" },
   { trigger: "!爽丁", response: "欺騙感情丁：今天撿到免費炒麵，潮爽DER" },
   { trigger: "!破防", response: "(′ Q ω Q ‵)" },
@@ -43,7 +43,6 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/attachments/1425749836321390632/1425755083039182889/584548878.png?ex=68e8bd65&is=68e76be5&hm=5dd05c53bde05d8e2279fe504fb31e707bac0be9cde1ef280d7423cec89dd5cd&",
   },
-
 
   {
     trigger: "!等",
@@ -102,11 +101,13 @@ module.exports = [
   },
   {
     trigger: "!最新科技",
-    response: "https://cdn.discordapp.com/attachments/1100943106880319570/1443239579028164698/3f3acb34ca7bf5a2.jpg?ex=694602d9&is=6944b159&hm=fb6e1aac10088f2ebb3ddb807a7c6680c256e5cf602fe623b26951830adfa171&"
+    response:
+      "https://cdn.discordapp.com/attachments/1100943106880319570/1443239579028164698/3f3acb34ca7bf5a2.jpg?ex=694602d9&is=6944b159&hm=fb6e1aac10088f2ebb3ddb807a7c6680c256e5cf602fe623b26951830adfa171&",
   },
   {
     trigger: "!如果",
-    response: "https://cdn.discordapp.com/attachments/1425749836321390632/1451188111504703498/image-2.png?ex=6945ec7f&is=69449aff&hm=71384c5944ff6d651b54d714702a17178fc8425eede57f87f9ea360eec0cac10&"
+    response:
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1451188111504703498/image-2.png?ex=6945ec7f&is=69449aff&hm=71384c5944ff6d651b54d714702a17178fc8425eede57f87f9ea360eec0cac10&",
   },
   // === GIF ===
   {
@@ -153,11 +154,6 @@ module.exports = [
     trigger: "!黨旗",
     response:
       "https://cdn.discordapp.com/attachments/1271056903350255646/1271734977842778153/ezgif-6-1c5871195afe_1.gif?ex=68eea73e&is=68ed55be&hm=fc47c947c6a61a69a09a743c3744e13fae0ae85ffb33a5438b877e43c4d59b73&",
-  },
-  {
-    trigger: "!變",
-    response:
-      "https://media.discordapp.net/attachments/826121054086627388/919876520988782632/NCRMZRFB6SODLC.gif?ex=68eeba05&is=68ed6885&hm=960e19db825d853ae13cf3557fc2d91a0055204f1a38bbbe68059100e2c70bb0&",
   },
   { trigger: "!贖", response: "https://imgur.com/DumSMmE" },
   { trigger: "!二口", response: "https://imgur.com/TX8FRcJ" },
@@ -213,7 +209,7 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/emojis/1115533369925713922.webp?size=160&animated=true",
   },
-  { trigger: "!yoho", response: "https://imgur.com/QhOzdko" },
+  { trigger: "!YOHO", response: "https://imgur.com/QhOzdko" },
   {
     trigger: "!窮醒",
     response:
@@ -246,7 +242,8 @@ module.exports = [
   },
   {
     trigger: "!出擊",
-    response: "https://cdn.discordapp.com/attachments/1425749836321390632/1442062100980568144/b5b93044251e50eb.gif?ex=69260abd&is=6924b93d&hm=53b0c90d13f49a40530aa93379fea100e93c85dc7834cb6a60a3d3053839fc1e&"
+    response:
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1442062100980568144/b5b93044251e50eb.gif?ex=69260abd&is=6924b93d&hm=53b0c90d13f49a40530aa93379fea100e93c85dc7834cb6a60a3d3053839fc1e&",
   },
   //影片
   {
@@ -261,11 +258,25 @@ module.exports = [
   },
   //多回覆
   {
+    trigger: "!變",
+    response: [
+      "https://media.discordapp.net/attachments/826121054086627388/919876520988782632/NCRMZRFB6SODLC.gif?ex=68eeba05&is=68ed6885&hm=960e19db825d853ae13cf3557fc2d91a0055204f1a38bbbe68059100e2c70bb0&",
+      "https://tenor.com/view/minami-ke-makoto-mako-chan-cute-boy-anime-gif-2374678476686310041",
+    ],
+  },
+  {
+    trigger: "!爽尻",
+    response: [
+      "(′・ω・‵) 這個尻尻 我們不要了",
+      "(′・ω・‵) 尻尻又在欺騙泡麵感情",
+    ],
+  },
+  {
     trigger: "!摩卡",
     response: [
       "https://cdn.discordapp.com/attachments/1282970244603842560/1423208950102229014/2.png?ex=69123bdf&is=6910ea5f&hm=c8df9a1488429ae216393f5127c56c13f88e4ebda350bea0d74e51374bdaef47&",
       "https://cdn.discordapp.com/attachments/1098447020433346671/1422481432516886540/2.png?ex=68eea0d1&is=68ed4f51&hm=5f1a9f6b0b38179a35dce62bd1d0a438d62d438a3d1f9ee77eac36b14110ded3&",
-      "https://cdn.discordapp.com/attachments/1282970244603842560/1427539889221795861/qXPGz8W.jpg?ex=68ef3b9f&is=68edea1f&hm=ec9209ff72bd1304cc5d527b5ab9bb6cd7082a666d90da98b7d62fea2d6596e7&"
+      "https://cdn.discordapp.com/attachments/1282970244603842560/1427539889221795861/qXPGz8W.jpg?ex=68ef3b9f&is=68edea1f&hm=ec9209ff72bd1304cc5d527b5ab9bb6cd7082a666d90da98b7d62fea2d6596e7&",
     ],
   },
   {
@@ -298,7 +309,7 @@ module.exports = [
       "https://tenor.com/view/l-putting-sugar-sugar-cup-tea-gif-16229647993365934322",
       "https://cdn.discordapp.com/attachments/1425749836321390632/1425753512846819380/20230831_163039.JPG?ex=68e8bbee&is=68e76a6e&hm=d02e19a4a9274847e0ae36c7f24042dcc64fa3c1da1037d464ccee868f10c6f9&",
       "https://tenor.com/view/anime-coffee-sugar-gif-15463484",
-      "https://tenor.com/view/pandb-blacktea-gif-20279745"
+      "https://tenor.com/view/pandb-blacktea-gif-20279745",
     ],
   },
   {
@@ -368,7 +379,7 @@ module.exports = [
     response: [
       "https://media.discordapp.net/attachments/541949615755362318/1092090492969287690/2a0df7373688762f.gif?ex=68f2f8c7&is=68f1a747&hm=5efce41ab7e6f8b3fa403a6d35f242f5f6823eda3bf1043d5b7ccf5e3f4d6f74&",
       "https://cdn.discordapp.com/attachments/1143066720668504158/1333320656091086888/71BF2559-F0D2-4CDE-ADBC-3813BB4A6114.gif?ex=68f288e0&is=68f13760&hm=75572a7955a3439c768bce55dd5dbb0ab37cf0d52fba638a9cc9528b1c54dc1d&",
-      "https://cdn.discordapp.com/attachments/1425749836321390632/1443148489365393438/image.png?ex=69280444&is=6926b2c4&hm=176390a8a6f05939c053b37671d10524587a0d6c35c7693037bc71237350bf8c&"
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1443148489365393438/image.png?ex=69280444&is=6926b2c4&hm=176390a8a6f05939c053b37671d10524587a0d6c35c7693037bc71237350bf8c&",
     ],
   },
   {
@@ -427,12 +438,13 @@ module.exports = [
       "https://cdn.discordapp.com/attachments/1425749836321390632/1433619727615393873/image.png?ex=690559ea&is=6904086a&hm=bd9b5934f4a3cf82465a5e6c31eb7f3f9b636c0dca392b995bba920b321f8c4c&",
       "https://cdn.discordapp.com/attachments/1425749836321390632/1433620040158286055/image.png?ex=69055a34&is=690408b4&hm=42ec0a1de622abe977029585675707b46bf4898594d4826282a60e142df8bada&",
       "https://cdn.discordapp.com/attachments/1425749836321390632/1433636938941730920/image.png?ex=690569f1&is=69041871&hm=a86c0b886788459eeb27b5b0ac0f43ab10ff7d57a999046d53bcb0af9c29dd08&",
-      "https://cdn.discordapp.com/attachments/1425749836321390632/1443880373321859174/0218633493c48cae.png?ex=692aade3&is=69295c63&hm=26271b1d3a26e09b15dda2579c002855a800952c06599d2b530b5419256d29a1&"
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1443880373321859174/0218633493c48cae.png?ex=692aade3&is=69295c63&hm=26271b1d3a26e09b15dda2579c002855a800952c06599d2b530b5419256d29a1&",
     ],
   },
   {
     trigger: "!娚",
     response: [
+      "https://tenor.com/view/saika-totsuka-smile-pretty-cute-gif-16915760",
       "https://tenor.com/view/steins-gate-gif-21955651",
       "https://tenor.com/view/makoto-maid-gif-9820173484873624883",
       "https://tenor.com/view/akiyama-mizuki-project-sekai-%E4%B8%96%E7%95%8C%E8%A8%88%E7%95%AB%E7%B9%BD%E7%B4%9B%E8%88%9E%E5%8F%B0-%E6%9B%89%E5%B1%B1%E7%91%9E%E5%B8%8C-gif-26997684",
@@ -444,15 +456,14 @@ module.exports = [
       "https://tenor.com/view/hideri-kanzaki-blend-s-poss-anime-trap-gif-10374457",
       "https://tenor.com/view/astolfo-gif-23045570",
       "https://tenor.com/view/amane-himeno-amane-himeno-my-dress-up-darling-dress-up-darling-gif-5601713552061636913",
-      "https://cdn.discordapp.com/attachments/1425749836321390632/1442534456077582417/MEPxitb8bCKserIpogSU17b5bUJywzG8jgStSpi4IXY5HceSvgAzq.png?ex=6925c867&is=692476e7&hm=2e702ef7c91178e41fced96ac4d345d02ceb1db1413d825ea40cf2c93e0c7dc2&"
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1442534456077582417/MEPxitb8bCKserIpogSU17b5bUJywzG8jgStSpi4IXY5HceSvgAzq.png?ex=6925c867&is=692476e7&hm=2e702ef7c91178e41fced96ac4d345d02ceb1db1413d825ea40cf2c93e0c7dc2&",
     ],
   },
   {
     trigger: "!相信",
-    response:
-      [
-        "https://cdn.discordapp.com/attachments/1425749836321390632/1425761140922781707/1723450414495-1.webp?ex=68e8c309&is=68e77189&hm=3e1edb4d1772b423d42078412a47e78952d6ed34689103aff6688a0efc70d3c1&",
-        "https://cdn.discordapp.com/attachments/1425749836321390632/1442102653722038323/image.png?ex=69263081&is=6924df01&hm=5d3d9e1113d513b77fd9a44d21cf075dacf985b624f9613c523dbb61004f66c1&"
-      ]
+    response: [
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1425761140922781707/1723450414495-1.webp?ex=68e8c309&is=68e77189&hm=3e1edb4d1772b423d42078412a47e78952d6ed34689103aff6688a0efc70d3c1&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1442102653722038323/image.png?ex=69263081&is=6924df01&hm=5d3d9e1113d513b77fd9a44d21cf075dacf985b624f9613c523dbb61004f66c1&",
+    ],
   },
 ];
