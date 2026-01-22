@@ -466,4 +466,12 @@ module.exports = [
       "https://cdn.discordapp.com/attachments/1425749836321390632/1442102653722038323/image.png?ex=69263081&is=6924df01&hm=5d3d9e1113d513b77fd9a44d21cf075dacf985b624f9613c523dbb61004f66c1&",
     ],
   },
+  {
+    trigger: "!100分",
+    response: [
+      "https://cdn.discordapp.com/attachments/665917958458966039/1460611570689118289/kkn_blue221206_1.gif?ex=6972c0c7&is=69716f47&hm=d367d58e7bab2baeb02227f75a55b001d9b6d984fb8a3ece33473717b8995b29&",
+      "https://cdn.discordapp.com/attachments/665917958458966039/1459810525104963615/ezgif-43d32363706506cc-ezgif.com-rotate.gif?ex=697279bf&is=6971283f&hm=a642cc0dd9ce526cc2507cb9a95046b7d1ea8e9e8dcec1084815b3da0bb82c5c&",
+      "https://cdn.discordapp.com/attachments/665917958458966039/1459811623488454791/ezgif-49659416c99d3abf.gif?ex=69727ac5&is=69712945&hm=e812894f2fc3f0b36d79cde04da5624068f1cab1b1572f817ebd5d3a8bb1103d&"
+    ],
+  },
 ];
