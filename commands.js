@@ -1,3 +1,5 @@
+const { response } = require("express");
+
 module.exports = [
   // === 文字回覆 ===
   { trigger: "!去留", response: "(′・ω・‵) 該考慮去留了" },
@@ -108,6 +110,11 @@ module.exports = [
     trigger: "!如果",
     response:
       "https://cdn.discordapp.com/attachments/1425749836321390632/1451188111504703498/image-2.png?ex=6945ec7f&is=69449aff&hm=71384c5944ff6d651b54d714702a17178fc8425eede57f87f9ea360eec0cac10&",
+  },
+  {
+    trigger: "!神",
+    response:
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1466085640184795218/2026-01-24-001.png?ex=697b7627&is=697a24a7&hm=6b8bb6ad07cf042ee10c907e6c07e260cd1bff16df04fcecb3aa8c39ad16dc30&",
   },
   // === GIF ===
   {
