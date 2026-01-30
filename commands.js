@@ -16,6 +16,21 @@ module.exports = [
 
   // === 圖片回覆 ===
   {
+    trigger: "!可惡",
+    response:
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1466786535193186304/MG2EED1.jpg?ex=697e02e9&is=697cb169&hm=6fc4a34eb279f315685ba15f014feff0ce8324f66b169109c985d2838bab4dd2&",
+  },
+  {
+    trigger: "!沒事",
+    response:
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1466786806589558827/c4jt321.png?ex=697e032a&is=697cb1aa&hm=f5b2737389e8afb08655ca0f445f4decc4f0092b5889c42e04547b6253c53178&",
+  },
+  {
+    trigger: "!色圖",
+    response:
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1466789368323772620/478699FEFB7A72043F450EEFF9FA936D.jpg?ex=697e058d&is=697cb40d&hm=02581d0efab91f7db0906070a647388cec2a0d9f0915bf4b76667295a5a58522&",
+  },
+  {
     trigger: "!逮捕",
     response:
       "https://cdn.discordapp.com/attachments/1277494264309223508/1426804580879958128/image.png?ex=68ec8ed0&is=68eb3d50&hm=4200995c1a486bee89c6f7f52fc75280fda074a6716567da2df049509cbe38e1&",
