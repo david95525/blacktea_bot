@@ -12,6 +12,10 @@ const client = new Client({
   ],
 });
 // 修改 index.js 開頭部分
+console.log("--- 偵錯資訊 ---");
+console.log("所有可用的變數名稱:", Object.keys(process.env).filter(k => !k.includes("SECRET")));
+console.log("BOT_TOKEN 是否存在:", !!process.env.BOT_TOKEN);
+console.log("---------------");
 const token = process.env.BOT_TOKEN;
 
 if (!token) {
