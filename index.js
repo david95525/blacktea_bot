@@ -47,14 +47,11 @@ client.on("messageCreate", async (message) => {
     const imageCmds = [];
     const randomCmds = [];
     for (const c of commands) {
-      if (Array.isArray(c.response)) {
-        // 多回覆 → 隨機
-        randomCmds.push(c.trigger);
-      } else if (
+      if (
         typeof c.response === "string" &&
         c.response.startsWith("http")
       ) {
-        // 單一網址 → 圖片
+        // 圖片/gif或 影片
         imageCmds.push(c.trigger);
       } else {
         // 文字
@@ -77,12 +74,8 @@ client.on("messageCreate", async (message) => {
           value: textCmds.length ? formatList(textCmds) : "（無）",
         },
         {
-          name: "圖片或GIF指令",
+          name: "圖片/GIF或影片",
           value: imageCmds.length ? formatList(imageCmds) : "（無）",
-        },
-        {
-          name: "隨機指令",
-          value: randomCmds.length ? formatList(randomCmds) : "（無）",
         }
       );
     message.channel.send({ embeds: [embed] });
