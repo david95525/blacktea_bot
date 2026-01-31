@@ -11,8 +11,16 @@ const client = new Client({
     GatewayIntentBits.MessageContent,
   ],
 });
+// 修改 index.js 開頭部分
+const token = process.env.BOT_TOKEN;
 
-client.login(process.env.BOT_TOKEN);
+if (!token) {
+    console.error("❌ 嚴重錯誤：Railway Variables 中找不到 BOT_TOKEN！");
+} else {
+    console.log("✅ 成功讀取 Token (長度為: " + token.length + ")");
+}
+
+client.login(token);
 
 client.on("ready", () => {
   console.log(`✅ Logged in as ${client.user.tag}!`);
