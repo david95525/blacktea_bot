@@ -466,6 +466,7 @@ module.exports = [
       "https://tenor.com/view/astolfo-gif-23045570",
       "https://tenor.com/view/amane-himeno-amane-himeno-my-dress-up-darling-dress-up-darling-gif-5601713552061636913",
       "https://cdn.discordapp.com/attachments/1425749836321390632/1442534456077582417/MEPxitb8bCKserIpogSU17b5bUJywzG8jgStSpi4IXY5HceSvgAzq.png?ex=6925c867&is=692476e7&hm=2e702ef7c91178e41fced96ac4d345d02ceb1db1413d825ea40cf2c93e0c7dc2&",
+      "https://tenor.com/view/cosmic-princess-kaguya-cpk-anime-cat-girl-cat-boy-gif-15943226109360371688"
     ],
   },
   {
