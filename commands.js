@@ -499,6 +499,13 @@ module.exports = [
     ]
   },
   {
+    trigger: "!老八",
+    response:
+      ["https://tenor.com/view/too-many-losing-heroines-anna-anna-yanami-make-heroine-makeinu-gif-16029912094377254568"
+
+      ]
+  },
+  {
     trigger: "!早安",
     response: [
       "https://cdn.discordapp.com/attachments/1367014342557437952/1470018596389388350/IMG_5936.gif?ex=69cefbc1&is=69cdaa41&hm=9d2dd62ab4a5cada7fe21b505fbb5737a6ff7f08e325c12f5973113abc64a50b&",
