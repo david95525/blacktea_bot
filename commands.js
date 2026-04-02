@@ -498,6 +498,24 @@ module.exports = [
       "https://cdn.discordapp.com/attachments/1425749836321390632/1480457472899678238/images.png?ex=69b067b7&is=69af1637&hm=0a2674b166b2e002987d871ec1a7f82e8fc39b09111fa8f75b9154deb184a712&"
     ]
   },
+  {
+    trigger: "!早安",
+    response: [
+      "https://cdn.discordapp.com/attachments/1367014342557437952/1470018596389388350/IMG_5936.gif?ex=69cefbc1&is=69cdaa41&hm=9d2dd62ab4a5cada7fe21b505fbb5737a6ff7f08e325c12f5973113abc64a50b&",
+      "https://cdn.discordapp.com/attachments/1021031004238008380/1477924101963382825/IMG_8581.gif?ex=69cebd54&is=69cd6bd4&hm=559f524638340f9763d9956f12e6b27a2e5a41d21c6a33c551258f3a86454490&",
+      "https://media.discordapp.net/attachments/1313294989752668230/1468773509802098688/prkr.gif?width=840&height=473&ex=69cf116d&is=69cdbfed&hm=2483dbb516d2ca8cbf0450b98a4be94629ab80ee610781362711e38c6c7a4991&"
+    ]
+  },
+  {
+    trigger: "!小雞",
+    response: [
+      "https://media.tenor.com/dJl050ZdO5sAAAAC/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96-hololive.gif",
+      "https://cdn.discordapp.com/attachments/826121054086627388/1411909015645978665/1411829549972590705-ConvertToGIF0.gif?ex=69ce84fd&is=69cd337d&hm=f895524fce3418a1dc10975c418be1cb8a11b23958d50490fb68a51fc5cc7b83&",
+      "https://media.discordapp.net/attachments/950412894548414537/1358397133404766299/GnzSZ7YacAAupq-.gif?width=525&height=525&ex=69cef62a&is=69cda4aa&hm=4246c291f4ed890c39ddfe86afba0b9c8979a04759a6dc9fcb8d8cf7eeb4d8c6&",
+      "https://tenor.com/view/%E9%9F%B3%E4%B9%83%E7%80%AC%E5%A5%8F-%E5%A5%8F-otonose-kanade-kanade-hololive-devis-gif-2385180011681261720",
+      "https://imgur.com/z9WdpGz"
+    ]
+  },
   //影片
   {
     trigger: "!你說什麼",
