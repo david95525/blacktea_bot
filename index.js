@@ -3,6 +3,7 @@
 ========================= */
 const { Client, GatewayIntentBits, EmbedBuilder } = require("discord.js");
 const commands = require("./commands.js"); // 指令清單
+const { isImageCommand } = require("./utils.js");
 
 const client = new Client({
   intents: [
@@ -47,12 +48,8 @@ client.on("messageCreate", async (message) => {
     // 分類
     const textCmds = [];
     const imageCmds = [];
-    const randomCmds = [];
     for (const c of commands) {
-      if (
-        typeof c.response === "string" &&
-        c.response.startsWith("http")
-      ) {
+      if (isImageCommand(c.response)) {
         // 圖片/gif或 影片
         imageCmds.push(c.trigger);
       } else {
