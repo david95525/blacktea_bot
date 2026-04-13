@@ -4,7 +4,7 @@
 const { Client, GatewayIntentBits, EmbedBuilder } = require("discord.js");
 const commands = require("./commands.js"); // 指令清單
 const { isImageCommand } = require("./utils.js");
-
+const { Events } = require("discord.js");
 const client = new Client({
   intents: [
     GatewayIntentBits.Guilds,
@@ -15,11 +15,10 @@ const client = new Client({
 // 修改 index.js 開頭部分
 
 const token = process.env.BOT_TOKEN;
-
 client.login(token);
 
-client.on("ready", () => {
-  console.log(`✅ Logged in as ${client.user.tag}!`);
+client.on(Events.ClientReady, (c) => {
+  console.log(`Ready! Logged in as ${c.user.tag}`);
 });
 
 // === 冷卻設定 ===

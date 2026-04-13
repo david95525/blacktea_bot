@@ -515,7 +515,7 @@ module.exports = [
     response: [
       "https://cdn.discordapp.com/attachments/1367014342557437952/1470018596389388350/IMG_5936.gif?ex=69cefbc1&is=69cdaa41&hm=9d2dd62ab4a5cada7fe21b505fbb5737a6ff7f08e325c12f5973113abc64a50b&",
       "https://media.discordapp.net/attachments/1313294989752668230/1468773509802098688/prkr.gif?width=840&height=473&ex=69cf116d&is=69cdbfed&hm=2483dbb516d2ca8cbf0450b98a4be94629ab80ee610781362711e38c6c7a4991&",
-      "http://i.imgur.com/IZ90z1n.jpg"
+      "https://imgur.com/IZ90z1n"
     ]
   },
   {
