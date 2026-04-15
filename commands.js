@@ -500,7 +500,7 @@ module.exports = [
     response: [
       "https://cdn.discordapp.com/attachments/1425749836321390632/1480456203409821846/images.png?ex=69b06688&is=69af1508&hm=7c9cff32258e6b8c3328475c28a6dc296bcd02f7963e930081de9f1ef41447c4&",
       "https://cdn.discordapp.com/attachments/1425749836321390632/1480456474265260082/1687081113029.png?ex=69b066c9&is=69af1549&hm=041cd33642bd1a104dd9b9af4473b59cd8dbaa164636780970eb49d0771eab15&",
-      "https://cdn.discordapp.com/attachments/1425749836321390632/1480457472899678238/images.png?ex=69b067b7&is=69af1637&hm=0a2674b166b2e002987d871ec1a7f82e8fc39b09111fa8f75b9154deb184a712&"
+      "https://cdn.discordapp.com/attachments/1282970244603842560/1488369072293806181/image.png?ex=69e04db7&is=69defc37&hm=87fb6191842e23e0fa9b2ac57654c15fef889304c272e99dd6a8c18a155e70c2&"
     ]
   },
   {
@@ -513,9 +513,10 @@ module.exports = [
   {
     trigger: "!露露卡",
     response: [
-      "https://cdn.discordapp.com/attachments/1367014342557437952/1470018596389388350/IMG_5936.gif?ex=69cefbc1&is=69cdaa41&hm=9d2dd62ab4a5cada7fe21b505fbb5737a6ff7f08e325c12f5973113abc64a50b&",
+      "https://tenor.com/view/luluka-moria-luluka-luluka-dance-%E6%A3%AE%E4%BA%9C%E3%82%8B%E3%82%8B%E3%81%8B-%E3%82%8B%E3%82%8B%E3%81%8B-gif-8289150157306944836",
       "https://media.discordapp.net/attachments/1313294989752668230/1468773509802098688/prkr.gif?width=840&height=473&ex=69cf116d&is=69cdbfed&hm=2483dbb516d2ca8cbf0450b98a4be94629ab80ee610781362711e38c6c7a4991&",
-      "https://imgur.com/IZ90z1n"
+      "https://imgur.com/IZ90z1n",
+      "https://cdn.discordapp.com/attachments/1282970244603842560/1493821609394307082/GqkWiYxGG6JoLT00-ezgif.com-video-to-gif-converter.gif?ex=69e05d49&is=69df0bc9&hm=61c03b3eed5e44c8b87b43500a02abf4f546d6c0d5257ddb9eb3195cce254368&"
     ]
   },
   {
