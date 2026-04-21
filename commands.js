@@ -1,18 +1,18 @@
-const {response} = require("express");
+const { response } = require("express");
 
 module.exports = [
   // === 文字回覆 ===
-  {trigger: "!去留", response: "(′・ω・‵) 該考慮去留了"},
-  {trigger: "!下班", response: "(′・ω・‵) 走ㄌ走ㄌ"},
-  {trigger: "!震怒", response: "(′・ω・‵) 嘎喔"},
+  { trigger: "!去留", response: "(′・ω・‵) 該考慮去留了" },
+  { trigger: "!下班", response: "(′・ω・‵) 走ㄌ走ㄌ" },
+  { trigger: "!震怒", response: "(′・ω・‵) 嘎喔" },
 
-  {trigger: "!欺騙", response: "(′・ω・‵) 大家都被欺騙感情丁欺騙感情"},
-  {trigger: "!爽丁", response: "欺騙感情丁：今天撿到免費炒麵，潮爽DER"},
-  {trigger: "!破防", response: "(′ Q ω Q ‵)"},
-  {trigger: "!尻尻", response: "尻尻：雅狗欠我狗爸摳"},
-  {trigger: "!中", response: "噫！好了！我中了！"},
-  {trigger: "!仲裁", response: "紅茶：你們都有罪"},
-  {trigger: "!大貓", response: "(^・ω・^=)"},
+  { trigger: "!欺騙", response: "(′・ω・‵) 大家都被欺騙感情丁欺騙感情" },
+  { trigger: "!爽丁", response: "欺騙感情丁：今天撿到免費炒麵，潮爽DER" },
+  { trigger: "!破防", response: "(′ Q ω Q ‵)" },
+  { trigger: "!尻尻", response: "尻尻：雅狗欠我狗爸摳" },
+  { trigger: "!中", response: "噫！好了！我中了！" },
+  { trigger: "!仲裁", response: "紅茶：你們都有罪" },
+  { trigger: "!大貓", response: "(^・ω・^=)" },
   {
     trigger: "!爽尻",
     response: [
@@ -69,7 +69,7 @@ module.exports = [
   {
     trigger: "!賽亞狗",
     response:
-      "https://cdn.discordapp.com/attachments/1282970244603842560/1491687278467088424/image.png?ex=69d89989&is=69d74809&hm=a464d56c592037e9cdd010f1112335c7730a8285d9b745902312b79b1c473d2f&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1496054958552911984/image.png?ex=69e87d41&is=69e72bc1&hm=57ab0a605b70977b052179a26d712ce7b8d6dcf91309739e7336a89edeefd5a1&",
   },
 
   {
@@ -121,7 +121,7 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/attachments/1425749836321390632/1439870927822258176/image.png?ex=691c17cc&is=691ac64c&hm=e7ad2bc2a1e65dc04e0a59d2c965c38a1c75df3293b28ac51030c569edcc8928&",
   },
-  {trigger: "!你婆", response: "https://i.imgur.com/YDzW7ZT.jpg"},
+  { trigger: "!你婆", response: "https://i.imgur.com/YDzW7ZT.jpg" },
   {
     trigger: "!計算機",
     response:
@@ -187,8 +187,8 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/attachments/1271056903350255646/1271734977842778153/ezgif-6-1c5871195afe_1.gif?ex=68eea73e&is=68ed55be&hm=fc47c947c6a61a69a09a743c3744e13fae0ae85ffb33a5438b877e43c4d59b73&",
   },
-  {trigger: "!贖", response: "https://imgur.com/DumSMmE"},
-  {trigger: "!二口", response: "https://imgur.com/TX8FRcJ"},
+  { trigger: "!贖", response: "https://imgur.com/DumSMmE" },
+  { trigger: "!二口", response: "https://imgur.com/TX8FRcJ" },
   {
     trigger: "!一發入魂",
     response:
@@ -241,7 +241,7 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/emojis/1115533369925713922.webp?size=160&animated=true",
   },
-  {trigger: "!YOHO", response: "https://imgur.com/QhOzdko"},
+  { trigger: "!YOHO", response: "https://imgur.com/QhOzdko" },
   {
     trigger: "!窮醒",
     response:
