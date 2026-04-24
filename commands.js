@@ -541,6 +541,12 @@ module.exports = [
       "https://cdn.discordapp.com/attachments/1425749836321390632/1494902408214614016/1776482731955.png?ex=69e44bdc&is=69e2fa5c&hm=fbc5063bfb8eec5d41ab44639ac991b1e184f29d90d9282880b682b9a9ee16a3&"
     ]
   },
+  {
+    trigger: "!發瘋",
+    response: [
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1496689950169628672/1776908927702.png?ex=69eb7563&is=69ea23e3&hm=efcd09a083dee6632aba6a335d256a5286a6a3d45601f66f5beb9985e4995600&"
+    ]
+  },
   //影片
   {
     trigger: "!你說什麼",
