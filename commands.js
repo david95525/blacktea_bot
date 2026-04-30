@@ -500,7 +500,8 @@ module.exports = [
     response: [
       "https://cdn.discordapp.com/attachments/1425749836321390632/1480456203409821846/images.png?ex=69b06688&is=69af1508&hm=7c9cff32258e6b8c3328475c28a6dc296bcd02f7963e930081de9f1ef41447c4&",
       "https://cdn.discordapp.com/attachments/1425749836321390632/1480456474265260082/1687081113029.png?ex=69b066c9&is=69af1549&hm=041cd33642bd1a104dd9b9af4473b59cd8dbaa164636780970eb49d0771eab15&",
-      "https://cdn.discordapp.com/attachments/1282970244603842560/1488369072293806181/image.png?ex=69e04db7&is=69defc37&hm=87fb6191842e23e0fa9b2ac57654c15fef889304c272e99dd6a8c18a155e70c2&"
+      "https://cdn.discordapp.com/attachments/1282970244603842560/1488369072293806181/image.png?ex=69e04db7&is=69defc37&hm=87fb6191842e23e0fa9b2ac57654c15fef889304c272e99dd6a8c18a155e70c2&",
+      "https://cdn.discordapp.com/attachments/740908504096833548/1299069343207915613/5f32e646b66ab576.gif?ex=69f3981a&is=69f2469a&hm=4e32288041b467aea28b7487dba592bd47f3290a716f40996c06a02b95043f3e&"
     ]
   },
   {
@@ -545,6 +546,12 @@ module.exports = [
     trigger: "!發瘋",
     response: [
       "https://cdn.discordapp.com/attachments/1425749836321390632/1496689950169628672/1776908927702.png?ex=69eb7563&is=69ea23e3&hm=efcd09a083dee6632aba6a335d256a5286a6a3d45601f66f5beb9985e4995600&"
+    ]
+  },
+  {
+    trigger: "!貧窮",
+    response: [
+      "https://cdn.discordapp.com/attachments/1351725841951887370/1481981360305602710/gifntext-gif_3.gif?ex=69f3e972&is=69f297f2&hm=23d1f21eeec560258a2b5d0fab806fc734a67fedb84aeaa7744e5b16b18a257a&"
     ]
   },
   //影片
