@@ -3,9 +3,7 @@ const { response } = require("express");
 module.exports = [
   // === 文字回覆 ===
   { trigger: "!去留", response: "(′・ω・‵) 該考慮去留了" },
-  { trigger: "!下班", response: "(′・ω・‵) 走ㄌ走ㄌ" },
   { trigger: "!震怒", response: "(′・ω・‵) 嘎喔" },
-
   { trigger: "!欺騙", response: "(′・ω・‵) 大家都被欺騙感情丁欺騙感情" },
   { trigger: "!爽丁", response: "欺騙感情丁：今天撿到免費炒麵，潮爽DER" },
   { trigger: "!破防", response: "(′ Q ω Q ‵)" },
@@ -21,6 +19,13 @@ module.exports = [
     ],
   },
   // === 圖片或GIF回覆 ===
+  {
+    trigger: "!下班",
+    response: [
+      "(′・ω・‵) 走ㄌ走ㄌ",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1499349683657773106/IMG_20260430_071717_476.png?ex=69fbb9f5&is=69fa6875&hm=18249a525d25b5a3c8bc60e4c9d80445d3a602207c042cd464dc5941832a6b47&"
+    ]
+  },
   {
     trigger: "!可惡",
     response:
@@ -67,9 +72,9 @@ module.exports = [
       "https://cdn.discordapp.com/attachments/1425749836321390632/1425755083039182889/584548878.png?ex=68e8bd65&is=68e76be5&hm=5dd05c53bde05d8e2279fe504fb31e707bac0be9cde1ef280d7423cec89dd5cd&",
   },
   {
-    trigger: "!賽亞狗",
+    trigger: "!賽雅狗",
     response:
-      "https://cdn.discordapp.com/attachments/1425749836321390632/1496054958552911984/image.png?ex=69e87d41&is=69e72bc1&hm=57ab0a605b70977b052179a26d712ce7b8d6dcf91309739e7336a89edeefd5a1&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1501132112516878387/86e5dd5dfcbe5042.png?ex=69fb9e79&is=69fa4cf9&hm=e8da6a90f8614cd773c430a330f32d4e77b8146976aa28b764afbf5b5438e533&",
   },
 
   {
