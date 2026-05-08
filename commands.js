@@ -1,16 +1,16 @@
-const { response } = require("express");
+const {response} = require("express");
 
 module.exports = [
   // === 文字回覆 ===
-  { trigger: "!去留", response: "(′・ω・‵) 該考慮去留了" },
-  { trigger: "!震怒", response: "(′・ω・‵) 嘎喔" },
-  { trigger: "!欺騙", response: "(′・ω・‵) 大家都被欺騙感情丁欺騙感情" },
-  { trigger: "!爽丁", response: "欺騙感情丁：今天撿到免費炒麵，潮爽DER" },
-  { trigger: "!破防", response: "(′ Q ω Q ‵)" },
-  { trigger: "!尻尻", response: "尻尻：雅狗欠我狗爸摳" },
-  { trigger: "!中", response: "噫！好了！我中了！" },
-  { trigger: "!仲裁", response: "紅茶：你們都有罪" },
-  { trigger: "!大貓", response: "(^・ω・^=)" },
+  {trigger: "!去留", response: "(′・ω・‵) 該考慮去留了"},
+  {trigger: "!震怒", response: "(′・ω・‵) 嘎喔"},
+  {trigger: "!欺騙", response: "(′・ω・‵) 大家都被欺騙感情丁欺騙感情"},
+  {trigger: "!爽丁", response: "欺騙感情丁：今天撿到免費炒麵，潮爽DER"},
+  {trigger: "!破防", response: "(′ Q ω Q ‵)"},
+  {trigger: "!尻尻", response: "尻尻：雅狗欠我狗爸摳"},
+  {trigger: "!中", response: "噫！好了！我中了！"},
+  {trigger: "!仲裁", response: "紅茶：你們都有罪"},
+  {trigger: "!大貓", response: "(^・ω・^=)"},
   {
     trigger: "!爽尻",
     response: [
@@ -126,7 +126,7 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/attachments/1425749836321390632/1439870927822258176/image.png?ex=691c17cc&is=691ac64c&hm=e7ad2bc2a1e65dc04e0a59d2c965c38a1c75df3293b28ac51030c569edcc8928&",
   },
-  { trigger: "!你婆", response: "https://i.imgur.com/YDzW7ZT.jpg" },
+  {trigger: "!你婆", response: "https://i.imgur.com/YDzW7ZT.jpg"},
   {
     trigger: "!計算機",
     response:
@@ -148,7 +148,7 @@ module.exports = [
       "https://cdn.discordapp.com/attachments/1098447020433346671/1467138814345744619/image.png?ex=697f4aff&is=697df97f&hm=7d86de5ad7854e2f4288fb6eef2db56f980c1787435c09f3bc9678e7b7bc690a&",]
   },
   {
-    trigger: "!RTA",
+    trigger: "!rta",
     response:
       "https://cdn.discordapp.com/attachments/1270969882502234172/1270971335191040011/1723093556227.gif?ex=68e8944b&is=68e742cb&hm=3bf7a6ab78b6e37775908afc6e2110a192456a8984ff901805d1fc712cc66a11&",
   },
@@ -192,8 +192,14 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/attachments/1271056903350255646/1271734977842778153/ezgif-6-1c5871195afe_1.gif?ex=68eea73e&is=68ed55be&hm=fc47c947c6a61a69a09a743c3744e13fae0ae85ffb33a5438b877e43c4d59b73&",
   },
-  { trigger: "!贖", response: "https://imgur.com/DumSMmE" },
-  { trigger: "!二口", response: "https://imgur.com/TX8FRcJ" },
+  {
+    trigger: "!贖",
+    response: "https://imgur.com/DumSMmE"
+  },
+  {
+    trigger: "!二口",
+    response: "https://imgur.com/TX8FRcJ"
+  },
   {
     trigger: "!一發入魂",
     response:
@@ -246,7 +252,10 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/emojis/1115533369925713922.webp?size=160&animated=true",
   },
-  { trigger: "!YOHO", response: "https://imgur.com/QhOzdko" },
+  {
+    trigger: "!yoho",
+    response: "https://imgur.com/QhOzdko"
+  },
   {
     trigger: "!窮醒",
     response:
@@ -448,6 +457,7 @@ module.exports = [
     response: [
       "https://cdn.discordapp.com/attachments/1425749836321390632/1432971407347679273/image.png?ex=6902fe1e&is=6901ac9e&hm=4f1983362cf7e2d7edac91399ebbcc9dd72bfbcb407a1fb300c683df4b3d7ce5&",
       "https://cdn.discordapp.com/attachments/1287367567199174687/1295611099265110018/02.gif?ex=6902efdd&is=69019e5d&hm=6e519b7af30fccaf0b177dabc8ac62eace3f9feb6a2cfd901f6bc733620c1784&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1501849814307180594/image.png?ex=69fe3ae2&is=69fce962&hm=83d66a9b312b4932f2f6ccced3fb08d23c40a2ddd5f71e024528ecf1ee6688c2&"
     ],
   },
   {
@@ -469,7 +479,6 @@ module.exports = [
       "https://tenor.com/view/akiyama-mizuki-project-sekai-%E4%B8%96%E7%95%8C%E8%A8%88%E7%95%AB%E7%B9%BD%E7%B4%9B%E8%88%9E%E5%8F%B0-%E6%9B%89%E5%B1%B1%E7%91%9E%E5%B8%8C-gif-26997684",
       "https://tenor.com/view/made-in-abyss-marulk-rolling-hit-the-wall-head-hurty-gif-27258378",
       "https://tenor.com/view/zombieland-saga-zombie-land-saga-zls-%E3%82%BE%E3%83%B3%E3%83%93%E3%83%A9%E3%83%B3%E3%83%89%E3%82%B5%E3%82%AC-lily-hoshikawa-gif-14080511087656013620",
-      "https://tenor.com/view/felix-argyle-felix-anime-trap-cute-gif-18705618",
       "https://tenor.com/view/anime-girl-yofukashi-no-uta-smile-no-gif-4528623332498788300",
       "https://tenor.com/view/akira-kemono-jihen-kemono-jihen-gif-23037633",
       "https://tenor.com/view/hideri-kanzaki-blend-s-poss-anime-trap-gif-10374457",
@@ -558,6 +567,16 @@ module.exports = [
     response: [
       "https://cdn.discordapp.com/attachments/1351725841951887370/1481981360305602710/gifntext-gif_3.gif?ex=69f3e972&is=69f297f2&hm=23d1f21eeec560258a2b5d0fab806fc734a67fedb84aeaa7744e5b16b18a257a&"
     ]
+  },
+  {
+    trigger: "!黑板",
+    response:
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1501605643654664403/image.png?ex=69fe003b&is=69fcaebb&hm=b8fcb34e09301c163bc157e93ff2ab361c84b5afc9b22f80631265c1afdacd66&"
+  },
+  {
+    trigger: "!破幹",
+    response:
+      "https://imgur.com/gallery/8rFB1L7"
   },
   //影片
   {
