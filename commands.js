@@ -570,13 +570,33 @@ module.exports = [
   },
   {
     trigger: "!黑板",
-    response:
+    response: [
       "https://cdn.discordapp.com/attachments/1425749836321390632/1501605643654664403/image.png?ex=69fe003b&is=69fcaebb&hm=b8fcb34e09301c163bc157e93ff2ab361c84b5afc9b22f80631265c1afdacd66&"
+    ]
   },
   {
     trigger: "!破幹",
-    response:
+    response: [
       "https://imgur.com/gallery/8rFB1L7"
+    ]
+  },
+  {
+    trigger: "!油",
+    response: [
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1505082265917587548/20251021_160939.jpg?ex=6a1b20d7&is=6a19cf57&hm=b44b91559094db95ebc0ec0bcf774d966b6ab4673b99d23f050211bc849ff33f&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1505083018757410817/DyHbDjk.png?ex=6a1b218a&is=6a19d00a&hm=cfd195a3e519779f0aaba64f89411473a6700934917b230fb82600bdbe76f833&"]
+  },
+  {
+    trigger: "!ㄌㄌㄎ",
+    response: [
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1507712732151939072/image.png?ex=6a1b7827&is=6a1a26a7&hm=195d0583ee49804c3cc235a3d4c0052fcd56693ce183061b6b212deddc4e7d8e&",
+    ]
+  },
+  {
+    trigger: "!烤兔",
+    response: [
+      "https://tenor.com/view/roasting-max-sam%26max-sam-and-max-roasting-pit-gif-16026698945054253329",
+    ]
   },
   //影片
   {
