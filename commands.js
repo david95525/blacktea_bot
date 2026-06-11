@@ -1,16 +1,16 @@
-const {response} = require("express");
+const { response } = require("express");
 
 module.exports = [
   // === 文字回覆 ===
-  {trigger: "!去留", response: "(′・ω・‵) 該考慮去留了"},
-  {trigger: "!震怒", response: "(′・ω・‵) 嘎喔"},
-  {trigger: "!欺騙", response: "(′・ω・‵) 大家都被欺騙感情丁欺騙感情"},
-  {trigger: "!爽丁", response: "欺騙感情丁：今天撿到免費炒麵，潮爽DER"},
-  {trigger: "!破防", response: "(′ Q ω Q ‵)"},
-  {trigger: "!尻尻", response: "尻尻：雅狗欠我狗爸摳"},
-  {trigger: "!中", response: "噫！好了！我中了！"},
-  {trigger: "!仲裁", response: "紅茶：你們都有罪"},
-  {trigger: "!大貓", response: "(^・ω・^=)"},
+  { trigger: "!去留", response: "(′・ω・‵) 該考慮去留了" },
+  { trigger: "!震怒", response: "(′・ω・‵) 嘎喔" },
+  { trigger: "!欺騙", response: "(′・ω・‵) 大家都被欺騙感情丁欺騙感情" },
+  { trigger: "!爽丁", response: "欺騙感情丁：今天撿到免費炒麵，潮爽DER" },
+  { trigger: "!破防", response: "(′ Q ω Q ‵)" },
+  { trigger: "!尻尻", response: "尻尻：雅狗欠我狗爸摳" },
+  { trigger: "!中", response: "噫！好了！我中了！" },
+  { trigger: "!仲裁", response: "紅茶：你們都有罪" },
+  { trigger: "!大貓", response: "(^・ω・^=)" },
   {
     trigger: "!爽尻",
     response: [
@@ -126,7 +126,7 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/attachments/1425749836321390632/1439870927822258176/image.png?ex=691c17cc&is=691ac64c&hm=e7ad2bc2a1e65dc04e0a59d2c965c38a1c75df3293b28ac51030c569edcc8928&",
   },
-  {trigger: "!你婆", response: "https://i.imgur.com/YDzW7ZT.jpg"},
+  { trigger: "!你婆", response: "https://i.imgur.com/YDzW7ZT.jpg" },
   {
     trigger: "!計算機",
     response:
@@ -596,6 +596,19 @@ module.exports = [
     trigger: "!烤兔",
     response: [
       "https://tenor.com/view/roasting-max-sam%26max-sam-and-max-roasting-pit-gif-16026698945054253329",
+    ]
+  },
+  {
+    trigger: "!兔",
+    response: [
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1512363069232255077/97436039c19974488717bcf5f2432a00.png?ex=6a2b119e&is=6a29c01e&hm=fa86c44a923c5c755fbef6284139aa4eb93717cd012b2445c5301e210df39def&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1512363185598894240/61946208.png?ex=6a2b11b9&is=6a29c039&hm=407d1605ece01df69cc21c90d50d097bd55c324463de10103df2f8f58e141752&"
+    ]
+  },
+  {
+    trigger: "!168",
+    response: [
+      "https://giphy.com/gifs/big-brother-1984-is-watching-jjodKUUt92I7IKISL5"
     ]
   },
   //影片
