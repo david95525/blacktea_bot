@@ -279,7 +279,11 @@ module.exports = [
   {
     trigger: "!99",
     response:
-      "https://tenor.com/view/falling-urso-bear-gif-11985320562084635255",
+      [
+        "https://tenor.com/view/falling-urso-bear-gif-11985320562084635255",
+        "https://tenor.com/view/kuma-kuma-kuma-bear-nom-nom-kuma-bear-nom-gif-19835896",
+        "https://tenor.com/view/polar-bear-dumb-splash-yes-yes-gif-4737315907308250766"
+      ]
   },
   {
     trigger: "!咬",
@@ -609,6 +613,12 @@ module.exports = [
     trigger: "!168",
     response: [
       "https://giphy.com/gifs/big-brother-1984-is-watching-jjodKUUt92I7IKISL5"
+    ]
+  },
+  {
+    trigger: "!哈醬",
+    response: [
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1519153836680544316/image.png?ex=6a3c85c3&is=6a3b3443&hm=0d79b973b8c5c8548856819c90c2a93e21d6ee82990dbc13da4db73f5a5231ce&"
     ]
   },
   //影片
