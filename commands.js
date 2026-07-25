@@ -1,16 +1,15 @@
-const { response } = require("express");
+const {response} = require("express");
 
 module.exports = [
   // === 文字回覆 ===
-  { trigger: "!去留", response: "(′・ω・‵) 該考慮去留了" },
-  { trigger: "!震怒", response: "(′・ω・‵) 嘎喔" },
-  { trigger: "!欺騙", response: "(′・ω・‵) 大家都被欺騙感情丁欺騙感情" },
-  { trigger: "!爽丁", response: "欺騙感情丁：今天撿到免費炒麵，潮爽DER" },
-  { trigger: "!破防", response: "(′ Q ω Q ‵)" },
-  { trigger: "!尻尻", response: "尻尻：雅狗欠我狗爸摳" },
-  { trigger: "!中", response: "噫！好了！我中了！" },
-  { trigger: "!仲裁", response: "紅茶：你們都有罪" },
-  { trigger: "!大貓", response: "(^・ω・^=)" },
+  {trigger: "!去留", response: "(′・ω・‵) 該考慮去留了"},
+  {trigger: "!震怒", response: "(′・ω・‵) 嘎喔"},
+  {trigger: "!欺騙", response: "(′・ω・‵) 大家都被欺騙感情丁欺騙感情"},
+  {trigger: "!爽丁", response: "欺騙感情丁：今天撿到免費炒麵，潮爽DER"},
+  {trigger: "!尻尻", response: "尻尻：雅狗欠我狗爸摳"},
+  {trigger: "!中", response: "噫！好了！我中了！"},
+  {trigger: "!仲裁", response: "紅茶：你們都有罪"},
+  {trigger: "!大貓", response: "(^・ω・^=)"},
   {
     trigger: "!爽尻",
     response: [
@@ -19,6 +18,12 @@ module.exports = [
     ],
   },
   // === 圖片或GIF回覆 ===
+  {
+    trigger: "!破防", response: [
+      "(′ Q ω Q ‵)",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1530513429423591464/08d0a6d0078a79a2.png?ex=6a65d935&is=6a6487b5&hm=fbccc3fd13d4a3823d7ae6cfb8538bc75ff685f83ab49019d2016d7811a7921c&"
+    ]
+  },
   {
     trigger: "!下班",
     response: [
@@ -126,7 +131,7 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/attachments/1425749836321390632/1439870927822258176/image.png?ex=691c17cc&is=691ac64c&hm=e7ad2bc2a1e65dc04e0a59d2c965c38a1c75df3293b28ac51030c569edcc8928&",
   },
-  { trigger: "!你婆", response: "https://i.imgur.com/YDzW7ZT.jpg" },
+  {trigger: "!你婆", response: "https://i.imgur.com/YDzW7ZT.jpg"},
   {
     trigger: "!計算機",
     response:
