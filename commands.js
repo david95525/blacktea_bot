@@ -637,4 +637,23 @@ module.exports = [
     response:
       "https://cdn.discordapp.com/attachments/1143066720668504158/1426633363090833408/FDownloader.Net_AQM-RgwU7aoOekH1i3uuqQ6G6KPEbGo1j_X7JR5MsGX3xYQsa75spBBMZzKxTR5MYZ0kzZGJLP1gTUT4_bWG1nC726DBdQsq8x1yaY8VO1F6jg_720p_HD.mp4?ex=68f8759b&is=68f7241b&hm=0d3b8d73c85e2e71d37ccbd492c6867ab37b75022cd48725671def4b17986fe0&",
   },
+  {
+    trigger: "!海鮮卒",
+    response: [
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1542804181650382878/image.png?ex=6ac9eedc&is=6ac89d5c&hm=1f91ce5c1a143510dbb55616346964d4e076bf50251731a54047e5002e5333d3&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1557660259386925086/c0MpFzujzNick_d7.mov?ex=6ac9ed29&is=6ac89ba9&hm=ce436ba86bc2c874860888bffdc3f643c33f403e57a60b2e65c51441052c1372&"
+    ]
+  },
+  {
+    trigger: "!上班",
+    response: [
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1556483974736519299/HTynf2gb0AAyoQp.png?backend=b2&ex=6ac99a29&is=6ac848a9&hm=4bc63b9dfcbd0167774986fdab17d82724ca6c6716bc773f81ba749a929cc4f4&"
+    ]
+  },
+  {
+    trigger: "!輪椅",
+    response: [
+      "https://gif.fxtwitter.com/tweet_video/HOQnXcEbEAA8Rmk.webp"
+    ]
+  }
 ];
