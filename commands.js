@@ -623,7 +623,8 @@ module.exports = [
   {
     trigger: "!哈醬",
     response: [
-      "https://cdn.discordapp.com/attachments/1425749836321390632/1519153836680544316/image.png?ex=6a3c85c3&is=6a3b3443&hm=0d79b973b8c5c8548856819c90c2a93e21d6ee82990dbc13da4db73f5a5231ce&"
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1519153836680544316/image.png?ex=6a3c85c3&is=6a3b3443&hm=0d79b973b8c5c8548856819c90c2a93e21d6ee82990dbc13da4db73f5a5231ce&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1561537872325255188/g9u9bG6ULmWXaNJF.gif?ex=6ad6b6f8&is=6ad56578&hm=f9d2a253e4ab49dfe9e935d248ee8f1a7a06d968b172eef3ba20c226af355971&"
     ]
   },
   //影片
@@ -654,6 +655,12 @@ module.exports = [
     trigger: "!輪椅",
     response: [
       "https://gif.fxtwitter.com/tweet_video/HOQnXcEbEAA8Rmk.webp"
+    ]
+  },
+  {
+    trigger: "!敲",
+    response: [
+      "https://cdn.discordapp.com/attachments/1098447020433346671/1560611021922504774/275a670d6444226e.gif?ex=6ad6a386&is=6ad55206&hm=b62c7358265fa53594e4de6b77f78fb9e20c36e5a5fb2fd1ea964504008802fc&"
     ]
   }
 ];
