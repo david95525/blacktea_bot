@@ -669,7 +669,7 @@ module.exports = [
     ]
   },
   {
-    trigger: " !羨慕",
+    trigger: "!羨慕",
     response: [
       "https://cdn.discordapp.com/attachments/1425749836321390632/1570689747053969599/image.png?ex=6af80251&is=6af6b0d1&hm=75b69910374420f608dd85b02c19b7247d591c00835d0b1638cce7b77690c2a2&"
     ]
