@@ -685,6 +685,8 @@ module.exports = [
     trigger: "!搖",
     response: [
       "https://klipy.com/gifs/kotobuki-hisako",      
+      "https://klipy.com/gifs/kotobuki-hisako-3",
+      "https://c.tenor.com/9bFzHEONz5MAAAAd/tenor.gif"
     ]
   }
 ];
