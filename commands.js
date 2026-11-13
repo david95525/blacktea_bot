@@ -680,5 +680,11 @@ module.exports = [
       "https://cdn.discordapp.com/attachments/1425749836321390632/1570691120076300360/image.png?ex=6af80399&is=6af6b219&hm=48c8acdfa4294ea640ca4b9d374282eabcfd5bdc23e2d57db9e814ff86e2f94e&",
       "https://cdn.discordapp.com/attachments/1425749836321390632/1570692944854384770/image.png?ex=6af8054c&is=6af6b3cc&hm=458fd8724e5bbb81d6c6dda26917ef662bd64c9e94ce40bcc385e1991f0584cc&"
     ]
+  },
+  {
+    trigger: "!搖",
+    response: [
+      "https://klipy.com/gifs/kotobuki-hisako",      
+    ]
   }
 ];
