@@ -109,8 +109,10 @@ module.exports = [
   },
   {
     trigger: "!擠奶",
-    response:
+    response: [
       "https://cdn.discordapp.com/attachments/1425749836321390632/1425753981153443880/image.png?ex=68e8bc5e&is=68e76ade&hm=d195529fa0ca16c88c04f6fe0ad529483ee22fb0bf2296306c1fbb24ecdc105d&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1570692441571594311/85872691-8c39-4fc2-b51d-7f9100e7b748.webp?ex=6af804d4&is=6af6b354&hm=dab703403ab0692f6d50a352edca0ab5128276f243520d2000cee7bc9bb6df73&"
+    ]
   },
   {
     trigger: "!北市",
@@ -314,6 +316,9 @@ module.exports = [
       "https://cdn.discordapp.com/attachments/1282970244603842560/1423208950102229014/2.png?ex=69123bdf&is=6910ea5f&hm=c8df9a1488429ae216393f5127c56c13f88e4ebda350bea0d74e51374bdaef47&",
       "https://cdn.discordapp.com/attachments/1098447020433346671/1422481432516886540/2.png?ex=68eea0d1&is=68ed4f51&hm=5f1a9f6b0b38179a35dce62bd1d0a438d62d438a3d1f9ee77eac36b14110ded3&",
       "https://cdn.discordapp.com/attachments/1282970244603842560/1427539889221795861/qXPGz8W.jpg?ex=68ef3b9f&is=68edea1f&hm=ec9209ff72bd1304cc5d527b5ab9bb6cd7082a666d90da98b7d62fea2d6596e7&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1565191151408128060/image0.jpg?ex=6af7c7da&is=6af6765a&hm=d1a5ade2471de0041147aaa7385ddd8ead02bb5c4fef98cefee38b354595b680&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1566731682739003473/HVTVjIIacAAM1I5.png?ex=6af773d5&is=6af62255&hm=748241108e8d1df099df9d7ff7a4d93186919f7fc4489d60ba4b7b131a3f1f9f&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1566731683129196574/HVTVjIDbEAA8bpN.png?ex=6af773d5&is=6af62255&hm=96f816f76af4e4ddddc03fb250ab9ee3b7b7ddac5d3266d2d3213019eed91cd5&"
     ],
   },
   {
@@ -661,6 +666,19 @@ module.exports = [
     trigger: "!敲",
     response: [
       "https://cdn.discordapp.com/attachments/1098447020433346671/1560611021922504774/275a670d6444226e.gif?ex=6ad6a386&is=6ad55206&hm=b62c7358265fa53594e4de6b77f78fb9e20c36e5a5fb2fd1ea964504008802fc&"
+    ]
+  },
+  {
+    trigger: " !羨慕",
+    response: [
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1570689747053969599/image.png?ex=6af80251&is=6af6b0d1&hm=75b69910374420f608dd85b02c19b7247d591c00835d0b1638cce7b77690c2a2&"
+    ]
+  },
+  {
+    trigger: "!大佬真歐",
+    response: [
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1570691120076300360/image.png?ex=6af80399&is=6af6b219&hm=48c8acdfa4294ea640ca4b9d374282eabcfd5bdc23e2d57db9e814ff86e2f94e&",
+      "https://cdn.discordapp.com/attachments/1425749836321390632/1570692944854384770/image.png?ex=6af8054c&is=6af6b3cc&hm=458fd8724e5bbb81d6c6dda26917ef662bd64c9e94ce40bcc385e1991f0584cc&"
     ]
   }
 ];
